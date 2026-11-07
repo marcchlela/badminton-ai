@@ -1,0 +1,600 @@
+{
+  "description": "Manual badminton player position references. Video clicks project visible floor-contact points; court clicks are subjective estimates.",
+  "annotations": [
+    {
+      "time": 20.0,
+      "frame": 500,
+      "players": {
+        "Far": {
+          "court_m": [
+            4.069206237792969,
+            10.80279541015625
+          ],
+          "pixel": [
+            714.2857142857143,
+            268.57142857142856
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            3.808425188064575,
+            2.4951016902923584
+          ],
+          "pixel": [
+            727.1428571428571,
+            498.57142857142856
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 20.2,
+      "frame": 505,
+      "players": {
+        "Far": {
+          "court_m": [
+            4.0850396156311035,
+            10.721339225769043
+          ],
+          "pixel": [
+            715.7142857142857,
+            270.0
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            3.8190627098083496,
+            2.4624814987182617
+          ],
+          "pixel": [
+            728.5714285714286,
+            500.0
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 20.4,
+      "frame": 510,
+      "players": {
+        "Far": {
+          "court_m": [
+            4.241404056549072,
+            10.013628959655762
+          ],
+          "pixel": [
+            730.0,
+            282.85714285714283
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            3.6598598957061768,
+            2.795667886734009
+          ],
+          "pixel": [
+            708.5714285714286,
+            485.7142857142857
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 20.6,
+      "frame": 515,
+      "players": {
+        "Far": {
+          "court_m": [
+            4.346436500549316,
+            9.566020965576172
+          ],
+          "pixel": [
+            740.0,
+            291.42857142857144
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            3.6043052673339844,
+            3.0031166076660156
+          ],
+          "pixel": [
+            701.4285714285714,
+            477.14285714285717
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 20.8,
+      "frame": 520,
+      "players": {
+        "Far": {
+          "court_m": [
+            4.4477057456970215,
+            9.420042037963867
+          ],
+          "pixel": [
+            748.5714285714286,
+            294.2857142857143
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            3.664116382598877,
+            2.898592233657837
+          ],
+          "pixel": [
+            708.5714285714286,
+            481.42857142857144
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 21.0,
+      "frame": 525,
+      "players": {
+        "Far": {
+          "court_m": [
+            4.524454593658447,
+            9.205710411071777
+          ],
+          "pixel": [
+            755.7142857142857,
+            298.57142857142856
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            3.5471434593200684,
+            3.216562271118164
+          ],
+          "pixel": [
+            694.2857142857143,
+            468.57142857142856
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 21.2,
+      "frame": 530,
+      "players": {
+        "Far": {
+          "court_m": [
+            4.047562122344971,
+            9.497215270996094
+          ],
+          "pixel": [
+            717.1428571428571,
+            292.85714285714283
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": null,
+          "pixel": null,
+          "method": "uncertain_skipped"
+        }
+      }
+    },
+    {
+      "time": 21.4,
+      "frame": 535,
+      "players": {
+        "Far": {
+          "court_m": [
+            3.4459261894226074,
+            9.87338638305664
+          ],
+          "pixel": [
+            670.0,
+            285.7142857142857
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            2.4336204528808594,
+            4.387155532836914
+          ],
+          "pixel": [
+            577.1428571428571,
+            425.7142857142857
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 21.5,
+      "frame": 538,
+      "players": {
+        "Far": {
+          "court_m": [
+            3.1839494705200195,
+            10.02793025970459
+          ],
+          "pixel": [
+            650.0,
+            282.85714285714283
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            2.2506487369537354,
+            4.387973308563232
+          ],
+          "pixel": [
+            558.5714285714286,
+            425.7142857142857
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 21.6,
+      "frame": 540,
+      "players": {
+        "Far": {
+          "court_m": [
+            3.0703232288360596,
+            9.878375053405762
+          ],
+          "pixel": [
+            641.4285714285714,
+            285.7142857142857
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            2.1450393199920654,
+            4.515290260314941
+          ],
+          "pixel": [
+            548.5714285714286,
+            421.42857142857144
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 21.7,
+      "frame": 542,
+      "players": {
+        "Near": {
+          "court_m": [
+            1.780049204826355,
+            4.645909309387207
+          ],
+          "pixel": [
+            512.8571428571429,
+            417.14285714285717
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Far": {
+          "court_m": [
+            3.0704379081726074,
+            10.029465675354004
+          ],
+          "pixel": [
+            641.4285714285714,
+            282.85714285714283
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 21.8,
+      "frame": 545,
+      "players": {
+        "Far": {
+          "court_m": [
+            3.1862499713897705,
+            10.414909362792969
+          ],
+          "pixel": [
+            650.0,
+            275.7142857142857
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            1.8854023218154907,
+            4.7763285636901855
+          ],
+          "pixel": [
+            524.2857142857143,
+            412.85714285714283
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 22.0,
+      "frame": 550,
+      "players": {
+        "Far": {
+          "court_m": [
+            3.3905909061431885,
+            11.228342056274414
+          ],
+          "pixel": [
+            664.2857142857143,
+            261.42857142857144
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            1.6511274576187134,
+            4.646538257598877
+          ],
+          "pixel": [
+            500.0,
+            417.14285714285717
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 22.1,
+      "frame": 552,
+      "players": {
+        "Far": {
+          "court_m": [
+            3.354004144668579,
+            11.485621452331543
+          ],
+          "pixel": [
+            661.4285714285714,
+            257.14285714285717
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            1.61192786693573,
+            4.603521823883057
+          ],
+          "pixel": [
+            495.7142857142857,
+            418.57142857142856
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 22.2,
+      "frame": 555,
+      "players": {
+        "Far": {
+          "court_m": [
+            3.2952888011932373,
+            11.660908699035645
+          ],
+          "pixel": [
+            657.1428571428571,
+            254.28571428571428
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            1.6069430112838745,
+            4.1835713386535645
+          ],
+          "pixel": [
+            491.42857142857144,
+            432.85714285714283
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 22.3,
+      "frame": 558,
+      "players": {
+        "Far": {
+          "court_m": [
+            3.2164227962493896,
+            12.018872261047363
+          ],
+          "pixel": [
+            651.4285714285714,
+            248.57142857142858
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            1.6394312381744385,
+            3.823354959487915
+          ],
+          "pixel": [
+            491.42857142857144,
+            445.7142857142857
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 22.4,
+      "frame": 560,
+      "players": {
+        "Near": {
+          "court_m": [
+            1.622910976409912,
+            3.706942319869995
+          ],
+          "pixel": [
+            488.57142857142856,
+            450.0
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Far": {
+          "court_m": [
+            3.025,
+            12.0
+          ],
+          "pixel": null,
+          "method": "estimated_ground_position"
+        }
+      }
+    },
+    {
+      "time": 22.5,
+      "frame": 562,
+      "players": {
+        "Far": {
+          "court_m": [
+            3.0,
+            12.075000000000001
+          ],
+          "pixel": null,
+          "method": "estimated_ground_position"
+        },
+        "Near": {
+          "court_m": [
+            1.687117576599121,
+            3.59197998046875
+          ],
+          "pixel": [
+            494.2857142857143,
+            454.2857142857143
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 22.6,
+      "frame": 565,
+      "players": {
+        "Near": {
+          "court_m": [
+            1.9058643579483032,
+            3.184755802154541
+          ],
+          "pixel": [
+            514.2857142857143,
+            470.0
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Far": {
+          "court_m": [
+            2.9,
+            12.275
+          ],
+          "pixel": null,
+          "method": "estimated_ground_position"
+        }
+      }
+    },
+    {
+      "time": 22.7,
+      "frame": 568,
+      "players": {
+        "Far": {
+          "court_m": [
+            2.8,
+            12.35
+          ],
+          "pixel": null,
+          "method": "estimated_ground_position"
+        },
+        "Near": {
+          "court_m": [
+            2.263894557952881,
+            2.832580804824829
+          ],
+          "pixel": [
+            551.4285714285714,
+            484.2857142857143
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 22.8,
+      "frame": 570,
+      "players": {
+        "Far": {
+          "court_m": [
+            2.725,
+            12.425
+          ],
+          "pixel": null,
+          "method": "estimated_ground_position"
+        },
+        "Near": {
+          "court_m": [
+            2.542311906814575,
+            2.176759958267212
+          ],
+          "pixel": [
+            580.0,
+            512.8571428571429
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 22.9,
+      "frame": 572,
+      "players": {
+        "Far": {
+          "court_m": [
+            2.691897392272949,
+            12.583904266357422
+          ],
+          "pixel": [
+            615.7142857142857,
+            240.0
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            2.656984806060791,
+            1.9913452863693237
+          ],
+          "pixel": [
+            592.8571428571429,
+            521.4285714285714
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    }
+  ]
+}

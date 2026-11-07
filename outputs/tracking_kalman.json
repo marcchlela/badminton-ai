@@ -1,0 +1,1278 @@
+[
+  {
+    "frame": 500,
+    "time": 20.0,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8726428747177124,
+        "pixel": [
+          724.0,
+          509.0
+        ],
+        "court_m": [
+          3.769296646118164,
+          2.260483741760254
+        ],
+        "bbox": [
+          668,
+          311,
+          112,
+          198
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.5958887934684753,
+        "pixel": [
+          710.5,
+          273.0
+        ],
+        "court_m": [
+          4.00679874420166,
+          10.553781509399414
+        ],
+        "bbox": [
+          685,
+          157,
+          51,
+          116
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 503,
+    "time": 20.1,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8658329844474792,
+        "pixel": [
+          722.5,
+          509.0
+        ],
+        "court_m": [
+          3.757105827331543,
+          2.2604966163635254
+        ],
+        "bbox": [
+          667,
+          313,
+          111,
+          196
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.46852120757102966,
+        "pixel": [
+          720.5,
+          269.0
+        ],
+        "court_m": [
+          4.14617919921875,
+          10.766694068908691
+        ],
+        "bbox": [
+          697,
+          163,
+          47,
+          106
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 505,
+    "time": 20.2,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.879748523235321,
+        "pixel": [
+          721.0,
+          509.0
+        ],
+        "court_m": [
+          3.749307632446289,
+          2.260504961013794
+        ],
+        "bbox": [
+          666,
+          309,
+          110,
+          200
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.45717763900756836,
+        "pixel": [
+          723.5,
+          279.0
+        ],
+        "court_m": [
+          4.1582489013671875,
+          10.452093124389648
+        ],
+        "bbox": [
+          706,
+          165,
+          35,
+          114
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 508,
+    "time": 20.3,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8865960240364075,
+        "pixel": [
+          705.0,
+          510.0
+        ],
+        "court_m": [
+          3.672443389892578,
+          2.2487902641296387
+        ],
+        "bbox": [
+          657,
+          299,
+          96,
+          211
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.604222297668457,
+        "pixel": [
+          730.0,
+          288.0
+        ],
+        "court_m": [
+          4.196212291717529,
+          10.052398681640625
+        ],
+        "bbox": [
+          707,
+          175,
+          46,
+          113
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 510,
+    "time": 20.4,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.891808807849884,
+        "pixel": [
+          703.5,
+          506.0
+        ],
+        "court_m": [
+          3.6230483055114746,
+          2.2894725799560547
+        ],
+        "bbox": [
+          658,
+          294,
+          91,
+          212
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.5169154405593872,
+        "pixel": [
+          735.5,
+          289.0
+        ],
+        "court_m": [
+          4.254567623138428,
+          9.798007011413574
+        ],
+        "bbox": [
+          709,
+          182,
+          53,
+          107
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 512,
+    "time": 20.5,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8510085940361023,
+        "pixel": [
+          703.0,
+          502.0
+        ],
+        "court_m": [
+          3.596130847930908,
+          2.360835313796997
+        ],
+        "bbox": [
+          661,
+          298,
+          84,
+          204
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.4145168960094452,
+        "pixel": [
+          739.5,
+          308.0
+        ],
+        "court_m": [
+          4.284821033477783,
+          9.169514656066895
+        ],
+        "bbox": [
+          713,
+          185,
+          53,
+          123
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 515,
+    "time": 20.6,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8305971026420593,
+        "pixel": [
+          700.5,
+          507.0
+        ],
+        "court_m": [
+          3.5698649883270264,
+          2.342944622039795
+        ],
+        "bbox": [
+          656,
+          310,
+          89,
+          197
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.6041772365570068,
+        "pixel": [
+          745.0,
+          310.0
+        ],
+        "court_m": [
+          4.33227014541626,
+          8.776487350463867
+        ],
+        "bbox": [
+          722,
+          185,
+          46,
+          125
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 518,
+    "time": 20.7,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8156745433807373,
+        "pixel": [
+          687.0,
+          505.0
+        ],
+        "court_m": [
+          3.4996132850646973,
+          2.3535537719726562
+        ],
+        "bbox": [
+          625,
+          310,
+          124,
+          195
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.5701769590377808,
+        "pixel": [
+          744.5,
+          306.0
+        ],
+        "court_m": [
+          4.360465049743652,
+          8.665539741516113
+        ],
+        "bbox": [
+          722,
+          179,
+          45,
+          127
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 520,
+    "time": 20.8,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8419366478919983,
+        "pixel": [
+          698.5,
+          495.0
+        ],
+        "court_m": [
+          3.512608766555786,
+          2.4694623947143555
+        ],
+        "bbox": [
+          637,
+          310,
+          123,
+          185
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.7306005358695984,
+        "pixel": [
+          740.5,
+          305.0
+        ],
+        "court_m": [
+          4.3520026206970215,
+          8.643815040588379
+        ],
+        "bbox": [
+          716,
+          181,
+          49,
+          124
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 522,
+    "time": 20.9,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8762509822845459,
+        "pixel": [
+          705.5,
+          489.0
+        ],
+        "court_m": [
+          3.5539534091949463,
+          2.6031551361083984
+        ],
+        "bbox": [
+          645,
+          313,
+          121,
+          176
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.6679847240447998,
+        "pixel": [
+          738.0,
+          304.0
+        ],
+        "court_m": [
+          4.3317413330078125,
+          8.669990539550781
+        ],
+        "bbox": [
+          711,
+          180,
+          54,
+          124
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 525,
+    "time": 21.0,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8731718063354492,
+        "pixel": [
+          696.0,
+          485.0
+        ],
+        "court_m": [
+          3.5428357124328613,
+          2.725189685821533
+        ],
+        "bbox": [
+          627,
+          304,
+          138,
+          181
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.8126034736633301,
+        "pixel": [
+          728.0,
+          305.0
+        ],
+        "court_m": [
+          4.258799076080322,
+          8.677360534667969
+        ],
+        "bbox": [
+          691,
+          179,
+          74,
+          126
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 528,
+    "time": 21.1,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.6679902076721191,
+        "pixel": [
+          649.5,
+          470.0
+        ],
+        "court_m": [
+          3.349565029144287,
+          2.964510440826416
+        ],
+        "bbox": [
+          605,
+          308,
+          89,
+          162
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.8209019303321838,
+        "pixel": [
+          723.0,
+          305.0
+        ],
+        "court_m": [
+          4.185200214385986,
+          8.69318962097168
+        ],
+        "bbox": [
+          685,
+          177,
+          76,
+          128
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 530,
+    "time": 21.2,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.7274753451347351,
+        "pixel": [
+          623.0,
+          465.0
+        ],
+        "court_m": [
+          3.1233811378479004,
+          3.1643431186676025
+        ],
+        "bbox": [
+          560,
+          324,
+          126,
+          141
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.8003550171852112,
+        "pixel": [
+          709.5,
+          301.0
+        ],
+        "court_m": [
+          4.067476272583008,
+          8.800345420837402
+        ],
+        "bbox": [
+          675,
+          171,
+          69,
+          130
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 532,
+    "time": 21.3,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.856795608997345,
+        "pixel": [
+          610.0,
+          470.0
+        ],
+        "court_m": [
+          2.9346418380737305,
+          3.225572347640991
+        ],
+        "bbox": [
+          535,
+          321,
+          150,
+          149
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.7728803753852844,
+        "pixel": [
+          694.0,
+          297.0
+        ],
+        "court_m": [
+          3.9108526706695557,
+          8.963242530822754
+        ],
+        "bbox": [
+          670,
+          162,
+          48,
+          135
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 535,
+    "time": 21.4,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8618507385253906,
+        "pixel": [
+          565.5,
+          456.0
+        ],
+        "court_m": [
+          2.634845495223999,
+          3.4180190563201904
+        ],
+        "bbox": [
+          480,
+          328,
+          171,
+          128
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.664501965045929,
+        "pixel": [
+          675.0,
+          287.0
+        ],
+        "court_m": [
+          3.712477207183838,
+          9.297186851501465
+        ],
+        "bbox": [
+          654,
+          169,
+          42,
+          118
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 538,
+    "time": 21.5,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.829164981842041,
+        "pixel": [
+          552.0,
+          449.0
+        ],
+        "court_m": [
+          2.3936989307403564,
+          3.614415407180786
+        ],
+        "bbox": [
+          477,
+          342,
+          150,
+          107
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.4976936876773834,
+        "pixel": [
+          656.5,
+          306.0
+        ],
+        "court_m": [
+          3.4807493686676025,
+          9.092133522033691
+        ],
+        "bbox": [
+          628,
+          185,
+          57,
+          121
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 540,
+    "time": 21.6,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.4611934423446655,
+        "pixel": [
+          546.5,
+          440.0
+        ],
+        "court_m": [
+          2.2210605144500732,
+          3.838923215866089
+        ],
+        "bbox": [
+          479,
+          342,
+          135,
+          98
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.18752773106098175,
+        "pixel": [
+          650.5,
+          305.0
+        ],
+        "court_m": [
+          3.4037909507751465,
+          9.048296928405762
+        ],
+        "bbox": [
+          628,
+          200,
+          45,
+          105
+        ],
+        "raw_court_m": [
+          3.183581829071045,
+          8.909308433532715
+        ],
+        "position_source": "predicted_from_track"
+      }
+    }
+  },
+  {
+    "frame": 542,
+    "time": 21.7,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.3148563504219055,
+        "pixel": [
+          532.0,
+          422.0
+        ],
+        "court_m": [
+          2.0448989868164062,
+          4.19932222366333
+        ],
+        "bbox": [
+          475,
+          338,
+          114,
+          84
+        ],
+        "position_source": "low_confidence"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.6236611604690552,
+        "pixel": [
+          650.5,
+          303.0
+        ],
+        "court_m": [
+          3.248872756958008,
+          9.00509262084961
+        ],
+        "bbox": [
+          628,
+          175,
+          45,
+          128
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 545,
+    "time": 21.8,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.7034509778022766,
+        "pixel": [
+          510.0,
+          419.0
+        ],
+        "court_m": [
+          1.8440974950790405,
+          4.456458568572998
+        ],
+        "bbox": [
+          471,
+          311,
+          78,
+          108
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.47519028186798096,
+        "pixel": [
+          651.0,
+          289.0
+        ],
+        "court_m": [
+          3.178419828414917,
+          9.314947128295898
+        ],
+        "bbox": [
+          630,
+          167,
+          42,
+          122
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 548,
+    "time": 21.9,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.7778320908546448,
+        "pixel": [
+          499.0,
+          430.0
+        ],
+        "court_m": [
+          1.6907812356948853,
+          4.466612339019775
+        ],
+        "bbox": [
+          462,
+          289,
+          74,
+          141
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.4753732681274414,
+        "pixel": [
+          655.0,
+          273.0
+        ],
+        "court_m": [
+          3.166627883911133,
+          9.873648643493652
+        ],
+        "bbox": [
+          633,
+          167,
+          44,
+          106
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 550,
+    "time": 22.0,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.7798908948898315,
+        "pixel": [
+          492.0,
+          432.0
+        ],
+        "court_m": [
+          1.5757725238800049,
+          4.437754154205322
+        ],
+        "bbox": [
+          452,
+          275,
+          80,
+          157
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.5440213084220886,
+        "pixel": [
+          659.5,
+          272.0
+        ],
+        "court_m": [
+          3.189999580383301,
+          10.233299255371094
+        ],
+        "bbox": [
+          633,
+          160,
+          53,
+          112
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 552,
+    "time": 22.1,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.6900033950805664,
+        "pixel": [
+          502.0,
+          430.0
+        ],
+        "court_m": [
+          1.552748441696167,
+          4.435378551483154
+        ],
+        "bbox": [
+          455,
+          265,
+          94,
+          165
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.5150981545448303,
+        "pixel": [
+          657.5,
+          268.0
+        ],
+        "court_m": [
+          3.19769287109375,
+          10.551488876342773
+        ],
+        "bbox": [
+          633,
+          164,
+          49,
+          104
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 555,
+    "time": 22.2,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8374558687210083,
+        "pixel": [
+          503.0,
+          443.0
+        ],
+        "court_m": [
+          1.5644400119781494,
+          4.26616096496582
+        ],
+        "bbox": [
+          461,
+          260,
+          84,
+          183
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.44689685106277466,
+        "pixel": [
+          659.0,
+          272.0
+        ],
+        "court_m": [
+          3.2141802310943604,
+          10.646146774291992
+        ],
+        "bbox": [
+          634,
+          176,
+          50,
+          96
+        ],
+        "position_source": "measured"
+      }
+    }
+  },
+  {
+    "frame": 558,
+    "time": 22.3,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8159658312797546,
+        "pixel": [
+          505.5,
+          459.0
+        ],
+        "court_m": [
+          1.6052310466766357,
+          3.966026782989502
+        ],
+        "bbox": [
+          471,
+          271,
+          69,
+          188
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": null,
+        "pixel": null,
+        "court_m": [
+          3.1652212142944336,
+          10.758809089660645
+        ],
+        "bbox": null,
+        "position_source": "predicted"
+      }
+    }
+  },
+  {
+    "frame": 560,
+    "time": 22.4,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.7658371329307556,
+        "pixel": [
+          507.5,
+          473.0
+        ],
+        "court_m": [
+          1.6582858562469482,
+          3.6171634197235107
+        ],
+        "bbox": [
+          474,
+          281,
+          67,
+          192
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": null,
+        "pixel": null,
+        "court_m": [
+          3.116262197494507,
+          10.871471405029297
+        ],
+        "bbox": null,
+        "position_source": "predicted"
+      }
+    }
+  },
+  {
+    "frame": 562,
+    "time": 22.5,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8279905319213867,
+        "pixel": [
+          514.5,
+          477.0
+        ],
+        "court_m": [
+          1.7283374071121216,
+          3.352403163909912
+        ],
+        "bbox": [
+          478,
+          287,
+          73,
+          190
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": null,
+        "pixel": null,
+        "court_m": [
+          3.06730318069458,
+          10.98413372039795
+        ],
+        "bbox": null,
+        "position_source": "predicted"
+      }
+    }
+  },
+  {
+    "frame": 565,
+    "time": 22.6,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8539100885391235,
+        "pixel": [
+          524.0,
+          481.0
+        ],
+        "court_m": [
+          1.8173754215240479,
+          3.1436870098114014
+        ],
+        "bbox": [
+          477,
+          291,
+          94,
+          190
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": null,
+        "pixel": null,
+        "court_m": [
+          3.0183441638946533,
+          11.096796035766602
+        ],
+        "bbox": null,
+        "position_source": "predicted"
+      }
+    }
+  },
+  {
+    "frame": 568,
+    "time": 22.7,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8718891143798828,
+        "pixel": [
+          544.0,
+          496.0
+        ],
+        "court_m": [
+          1.9638930559158325,
+          2.8601627349853516
+        ],
+        "bbox": [
+          485,
+          304,
+          118,
+          192
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": null,
+        "pixel": null,
+        "court_m": [
+          2.9693851470947266,
+          11.209458351135254
+        ],
+        "bbox": null,
+        "position_source": "predicted"
+      }
+    }
+  },
+  {
+    "frame": 570,
+    "time": 22.8,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.891379714012146,
+        "pixel": [
+          570.0,
+          519.0
+        ],
+        "court_m": [
+          2.1668007373809814,
+          2.4626245498657227
+        ],
+        "bbox": [
+          500,
+          319,
+          140,
+          200
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": null,
+        "pixel": null,
+        "court_m": [
+          2.9204261302948,
+          11.322120666503906
+        ],
+        "bbox": null,
+        "position_source": "predicted"
+      }
+    }
+  },
+  {
+    "frame": 572,
+    "time": 22.9,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.9078208804130554,
+        "pixel": [
+          592.0,
+          530.0
+        ],
+        "court_m": [
+          2.3791491985321045,
+          2.1166298389434814
+        ],
+        "bbox": [
+          520,
+          335,
+          144,
+          195
+        ],
+        "position_source": "measured"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.627050518989563,
+        "pixel": [
+          600.5,
+          244.0
+        ],
+        "court_m": [
+          2.5431809425354004,
+          12.167902946472168
+        ],
+        "bbox": [
+          577,
+          118,
+          47,
+          126
+        ],
+        "position_source": "measured"
+      }
+    }
+  }
+]

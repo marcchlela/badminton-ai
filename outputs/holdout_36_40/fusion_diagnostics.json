@@ -1,0 +1,1189 @@
+[
+  {
+    "time": 36.0,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      2.4661269187927246,
+      3.0454676151275635
+    ],
+    "pose_iou": 0.9808676310684382,
+    "left_ankle_conf": 0.9887953996658325,
+    "right_ankle_conf": 0.9906739592552185,
+    "ankle_midpoint_pixel": [
+      575.071533203125,
+      475.5284729003906
+    ]
+  },
+  {
+    "time": 36.0,
+    "side": "Far",
+    "accepted": false,
+    "reason": "no_pose",
+    "pose_court_m": null
+  },
+  {
+    "time": 36.1,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      2.73636794090271,
+      2.9312872886657715
+    ],
+    "pose_iou": 0.770538161876185,
+    "left_ankle_conf": 0.9673084020614624,
+    "right_ankle_conf": 0.9695610404014587,
+    "ankle_midpoint_pixel": [
+      604.722412109375,
+      480.1614074707031
+    ]
+  },
+  {
+    "time": 36.1,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      5.398894786834717,
+      10.162091255187988
+    ],
+    "pose_iou": 0.8346343398850523,
+    "left_ankle_conf": 0.7708753943443298,
+    "right_ankle_conf": 0.7960264682769775,
+    "ankle_midpoint_pixel": [
+      816.5529174804688,
+      279.78668212890625
+    ]
+  },
+  {
+    "time": 36.2,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      2.990614652633667,
+      3.429251194000244
+    ],
+    "pose_iou": 0.9834677622130122,
+    "left_ankle_conf": 0.9166630506515503,
+    "right_ankle_conf": 0.9123829007148743,
+    "ankle_midpoint_pixel": [
+      633.342529296875,
+      460.3265380859375
+    ]
+  },
+  {
+    "time": 36.2,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      5.0517354011535645,
+      10.610803604125977
+    ],
+    "pose_iou": 0.8488560376434542,
+    "left_ankle_conf": 0.982126772403717,
+    "right_ankle_conf": 0.9862787127494812,
+    "ankle_midpoint_pixel": [
+      787.3854370117188,
+      271.71099853515625
+    ]
+  },
+  {
+    "time": 36.3,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.7555525302886963,
+      4.247733116149902
+    ],
+    "pose_iou": 0.7115341718183367,
+    "left_ankle_conf": 0.937997579574585,
+    "right_ankle_conf": 0.9476772546768188,
+    "ankle_midpoint_pixel": [
+      712.2349853515625,
+      430.3100891113281
+    ]
+  },
+  {
+    "time": 36.3,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.889891147613525,
+      10.62969970703125
+    ],
+    "pose_iou": 0.9187466290496021,
+    "left_ankle_conf": 0.9914110898971558,
+    "right_ankle_conf": 0.9901295304298401,
+    "ankle_midpoint_pixel": [
+      775.325439453125,
+      271.41619873046875
+    ]
+  },
+  {
+    "time": 36.4,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.009163856506348,
+      4.049526214599609
+    ],
+    "pose_iou": 0.9354306558959974,
+    "left_ankle_conf": 0.9852109551429749,
+    "right_ankle_conf": 0.9872188568115234,
+    "ankle_midpoint_pixel": [
+      739.5361328125,
+      437.2396240234375
+    ]
+  },
+  {
+    "time": 36.4,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.620764255523682,
+      10.81092357635498
+    ],
+    "pose_iou": 0.9039346105084707,
+    "left_ankle_conf": 0.995802104473114,
+    "right_ankle_conf": 0.9957535266876221,
+    "ankle_midpoint_pixel": [
+      754.562255859375,
+      268.2860107421875
+    ]
+  },
+  {
+    "time": 36.5,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.190463066101074,
+      4.279529094696045
+    ],
+    "pose_iou": 0.6609423712534892,
+    "left_ankle_conf": 0.9743154048919678,
+    "right_ankle_conf": 0.9532634615898132,
+    "ankle_midpoint_pixel": [
+      756.73388671875,
+      429.1439208984375
+    ]
+  },
+  {
+    "time": 36.5,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.437396049499512,
+      10.758039474487305
+    ],
+    "pose_iou": 0.9077909089410139,
+    "left_ankle_conf": 0.9837920665740967,
+    "right_ankle_conf": 0.9862788319587708,
+    "ankle_midpoint_pixel": [
+      741.39501953125,
+      269.261962890625
+    ]
+  },
+  {
+    "time": 36.6,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.362449645996094,
+      4.218481540679932
+    ],
+    "pose_iou": 0.9135891159438171,
+    "left_ankle_conf": 0.9744900465011597,
+    "right_ankle_conf": 0.9577218294143677,
+    "ankle_midpoint_pixel": [
+      774.9122314453125,
+      431.2381591796875
+    ]
+  },
+  {
+    "time": 36.6,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.396711349487305,
+      11.005487442016602
+    ],
+    "pose_iou": 0.7987404099789546,
+    "left_ankle_conf": 0.9819086790084839,
+    "right_ankle_conf": 0.9837819337844849,
+    "ankle_midpoint_pixel": [
+      737.3502197265625,
+      264.965576171875
+    ]
+  },
+  {
+    "time": 36.7,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.6153459548950195,
+      4.381298542022705
+    ],
+    "pose_iou": 0.9404252999647726,
+    "left_ankle_conf": 0.7694624662399292,
+    "right_ankle_conf": 0.7933928966522217,
+    "ankle_midpoint_pixel": [
+      799.3897705078125,
+      425.5811767578125
+    ]
+  },
+  {
+    "time": 36.7,
+    "side": "Far",
+    "accepted": false,
+    "reason": "weak_pose_match",
+    "pose_court_m": null,
+    "pose_iou": 0.11090570087362175
+  },
+  {
+    "time": 36.8,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.861522197723389,
+      4.70480489730835
+    ],
+    "pose_iou": 0.9724510831417229,
+    "left_ankle_conf": 0.9597548842430115,
+    "right_ankle_conf": 0.9627972841262817,
+    "ankle_midpoint_pixel": [
+      820.9412841796875,
+      414.70306396484375
+    ]
+  },
+  {
+    "time": 36.8,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.543243885040283,
+      10.851163864135742
+    ],
+    "pose_iou": 0.5928406229373582,
+    "left_ankle_conf": 0.9775870442390442,
+    "right_ankle_conf": 0.981705904006958,
+    "ankle_midpoint_pixel": [
+      748.7022705078125,
+      267.6025695800781
+    ]
+  },
+  {
+    "time": 36.9,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.949519634246826,
+      4.834768295288086
+    ],
+    "pose_iou": 0.9813721262647437,
+    "left_ankle_conf": 0.9753962755203247,
+    "right_ankle_conf": 0.9733178615570068,
+    "ankle_midpoint_pixel": [
+      828.2830810546875,
+      410.45184326171875
+    ]
+  },
+  {
+    "time": 36.9,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.652596473693848,
+      10.619762420654297
+    ],
+    "pose_iou": 0.6519166008512217,
+    "left_ankle_conf": 0.8910554647445679,
+    "right_ankle_conf": 0.9139044284820557,
+    "ankle_midpoint_pixel": [
+      757.8836669921875,
+      271.6545104980469
+    ]
+  },
+  {
+    "time": 37.0,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.95850133895874,
+      4.851154327392578
+    ],
+    "pose_iou": 0.9597471189229528,
+    "left_ankle_conf": 0.9331296682357788,
+    "right_ankle_conf": 0.9338468313217163,
+    "ankle_midpoint_pixel": [
+      828.99072265625,
+      409.92083740234375
+    ]
+  },
+  {
+    "time": 37.0,
+    "side": "Far",
+    "accepted": false,
+    "reason": "weak_pose_match",
+    "pose_court_m": null,
+    "pose_iou": 0.012907206630830514
+  },
+  {
+    "time": 37.1,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.761236190795898,
+      4.8050665855407715
+    ],
+    "pose_iou": 0.9341777535369853,
+    "left_ankle_conf": 0.9631819725036621,
+    "right_ankle_conf": 0.9541524648666382,
+    "ankle_midpoint_pixel": [
+      809.8610229492188,
+      411.44580078125
+    ]
+  },
+  {
+    "time": 37.1,
+    "side": "Far",
+    "accepted": false,
+    "reason": "weak_pose_match",
+    "pose_court_m": null,
+    "pose_iou": 0.12005597356092289
+  },
+  {
+    "time": 37.2,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.564144611358643,
+      4.83673095703125
+    ],
+    "pose_iou": 0.968022292543593,
+    "left_ankle_conf": 0.9900806546211243,
+    "right_ankle_conf": 0.9900828003883362,
+    "ankle_midpoint_pixel": [
+      789.9500122070312,
+      410.4532775878906
+    ]
+  },
+  {
+    "time": 37.2,
+    "side": "Far",
+    "accepted": false,
+    "reason": "weak_pose_match",
+    "pose_court_m": null,
+    "pose_iou": 0.057736796913720405
+  },
+  {
+    "time": 37.3,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.224538326263428,
+      4.599828720092773
+    ],
+    "pose_iou": 0.9621474162891279,
+    "left_ankle_conf": 0.987686276435852,
+    "right_ankle_conf": 0.9880409240722656,
+    "ankle_midpoint_pixel": [
+      757.8936767578125,
+      418.27618408203125
+    ]
+  },
+  {
+    "time": 37.3,
+    "side": "Far",
+    "accepted": false,
+    "reason": "no_pose",
+    "pose_court_m": null
+  },
+  {
+    "time": 37.4,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.7359087467193604,
+      3.720824956893921
+    ],
+    "pose_iou": 0.9761598244118226,
+    "left_ankle_conf": 0.9910261034965515,
+    "right_ankle_conf": 0.9904304146766663,
+    "ankle_midpoint_pixel": [
+      712.5869140625,
+      449.2193603515625
+    ]
+  },
+  {
+    "time": 37.4,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.78933048248291,
+      9.330016136169434
+    ],
+    "pose_iou": 0.7051997667547811,
+    "left_ankle_conf": 0.976189136505127,
+    "right_ankle_conf": 0.977553129196167,
+    "ankle_midpoint_pixel": [
+      775.7598266601562,
+      295.998046875
+    ]
+  },
+  {
+    "time": 37.5,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.7086026668548584,
+      3.817269802093506
+    ],
+    "pose_iou": 0.8908250144993541,
+    "left_ankle_conf": 0.9915061593055725,
+    "right_ankle_conf": 0.9938454031944275,
+    "ankle_midpoint_pixel": [
+      709.25732421875,
+      445.6672058105469
+    ]
+  },
+  {
+    "time": 37.5,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.657634735107422,
+      9.182814598083496
+    ],
+    "pose_iou": 0.9471924041684726,
+    "left_ankle_conf": 0.9788600206375122,
+    "right_ankle_conf": 0.9853777885437012,
+    "ankle_midpoint_pixel": [
+      766.3321533203125,
+      299.00347900390625
+    ]
+  },
+  {
+    "time": 37.6,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.728419542312622,
+      3.9504129886627197
+    ],
+    "pose_iou": 0.9525284244271729,
+    "left_ankle_conf": 0.9793497920036316,
+    "right_ankle_conf": 0.9724922180175781,
+    "ankle_midpoint_pixel": [
+      710.7501220703125,
+      440.8273010253906
+    ]
+  },
+  {
+    "time": 37.6,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.607741832733154,
+      8.966907501220703
+    ],
+    "pose_iou": 0.9004866163158071,
+    "left_ankle_conf": 0.9916163086891174,
+    "right_ankle_conf": 0.9942643046379089,
+    "ankle_midpoint_pixel": [
+      763.6704711914062,
+      303.4519348144531
+    ]
+  },
+  {
+    "time": 37.7,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.993830680847168,
+      4.499541759490967
+    ],
+    "pose_iou": 0.8827092887609039,
+    "left_ankle_conf": 0.9851522445678711,
+    "right_ankle_conf": 0.9886112809181213,
+    "ankle_midpoint_pixel": [
+      735.24658203125,
+      421.667724609375
+    ]
+  },
+  {
+    "time": 37.7,
+    "side": "Far",
+    "accepted": false,
+    "reason": "ground_not_updated",
+    "pose_court_m": null
+  },
+  {
+    "time": 37.8,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.120667457580566,
+      4.5688958168029785
+    ],
+    "pose_iou": 0.5843997282718584,
+    "left_ankle_conf": 0.9834058284759521,
+    "right_ankle_conf": 0.9826222658157349,
+    "ankle_midpoint_pixel": [
+      747.63671875,
+      419.32330322265625
+    ]
+  },
+  {
+    "time": 37.8,
+    "side": "Far",
+    "accepted": false,
+    "reason": "ground_not_updated",
+    "pose_court_m": null
+  },
+  {
+    "time": 37.9,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.279837608337402,
+      4.765468120574951
+    ],
+    "pose_iou": 0.9466532550552345,
+    "left_ankle_conf": 0.9868510365486145,
+    "right_ankle_conf": 0.9714924693107605,
+    "ankle_midpoint_pixel": [
+      762.2328491210938,
+      412.81396484375
+    ]
+  },
+  {
+    "time": 37.9,
+    "side": "Far",
+    "accepted": false,
+    "reason": "weak_pose_match",
+    "pose_court_m": null,
+    "pose_iou": 0.21551067373376417
+  },
+  {
+    "time": 38.0,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.410574436187744,
+      5.140947341918945
+    ],
+    "pose_iou": 0.9270687328916308,
+    "left_ankle_conf": 0.9869022369384766,
+    "right_ankle_conf": 0.9795135855674744,
+    "ankle_midpoint_pixel": [
+      772.2825927734375,
+      400.82293701171875
+    ]
+  },
+  {
+    "time": 38.0,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.360910892486572,
+      9.801100730895996
+    ],
+    "pose_iou": 0.7959074122761187,
+    "left_ankle_conf": 0.8195960521697998,
+    "right_ankle_conf": 0.7954961061477661,
+    "ankle_midpoint_pixel": [
+      740.0223388671875,
+      286.8648681640625
+    ]
+  },
+  {
+    "time": 38.1,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.506492614746094,
+      5.151265621185303
+    ],
+    "pose_iou": 0.9461236507280164,
+    "left_ankle_conf": 0.9919760823249817,
+    "right_ankle_conf": 0.985630989074707,
+    "ankle_midpoint_pixel": [
+      781.5535278320312,
+      400.48443603515625
+    ]
+  },
+  {
+    "time": 38.1,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.329634189605713,
+      9.382352828979492
+    ],
+    "pose_iou": 0.7059951001290823,
+    "left_ankle_conf": 0.9752198457717896,
+    "right_ankle_conf": 0.9723357558250427,
+    "ankle_midpoint_pixel": [
+      739.5537719726562,
+      295.06585693359375
+    ]
+  },
+  {
+    "time": 38.2,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.632957935333252,
+      5.172391891479492
+    ],
+    "pose_iou": 0.9750686919851228,
+    "left_ankle_conf": 0.9525362849235535,
+    "right_ankle_conf": 0.9645209908485413,
+    "ankle_midpoint_pixel": [
+      793.6953125,
+      399.80487060546875
+    ]
+  },
+  {
+    "time": 38.2,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.12451171875,
+      9.129379272460938
+    ],
+    "pose_iou": 0.8614837253933427,
+    "left_ankle_conf": 0.9763180017471313,
+    "right_ankle_conf": 0.9721953272819519,
+    "ankle_midpoint_pixel": [
+      724.564453125,
+      300.22479248046875
+    ]
+  },
+  {
+    "time": 38.3,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.654402732849121,
+      5.8202595710754395
+    ],
+    "pose_iou": 0.8746893209091064,
+    "left_ankle_conf": 0.9844468235969543,
+    "right_ankle_conf": 0.9783360958099365,
+    "ankle_midpoint_pixel": [
+      790.07080078125,
+      380.41461181640625
+    ]
+  },
+  {
+    "time": 38.3,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.124608039855957,
+      9.078518867492676
+    ],
+    "pose_iou": 0.8385914449495315,
+    "left_ankle_conf": 0.9904967546463013,
+    "right_ankle_conf": 0.9881424307823181,
+    "ankle_midpoint_pixel": [
+      724.7772827148438,
+      301.2666015625
+    ]
+  },
+  {
+    "time": 38.4,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.75241231918335,
+      5.81734561920166
+    ],
+    "pose_iou": 0.9043139550727685,
+    "left_ankle_conf": 0.95632004737854,
+    "right_ankle_conf": 0.9353399872779846,
+    "ankle_midpoint_pixel": [
+      799.294921875,
+      380.47943115234375
+    ]
+  },
+  {
+    "time": 38.4,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.069316864013672,
+      9.634135246276855
+    ],
+    "pose_iou": 0.9042193625253316,
+    "left_ankle_conf": 0.9872434735298157,
+    "right_ankle_conf": 0.9792633652687073,
+    "ankle_midpoint_pixel": [
+      718.3280029296875,
+      290.166748046875
+    ]
+  },
+  {
+    "time": 38.5,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.647400856018066,
+      5.62904691696167
+    ],
+    "pose_iou": 0.9317764333309326,
+    "left_ankle_conf": 0.9577123522758484,
+    "right_ankle_conf": 0.954307496547699,
+    "ankle_midpoint_pixel": [
+      791.0487670898438,
+      385.98797607421875
+    ]
+  },
+  {
+    "time": 38.5,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.9996705055236816,
+      9.80338191986084
+    ],
+    "pose_iou": 0.8998796259193457,
+    "left_ankle_conf": 0.9903291463851929,
+    "right_ankle_conf": 0.9911675453186035,
+    "ankle_midpoint_pixel": [
+      712.3936157226562,
+      286.9124755859375
+    ]
+  },
+  {
+    "time": 38.6,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.525081634521484,
+      5.578629493713379
+    ],
+    "pose_iou": 0.9692962967072857,
+    "left_ankle_conf": 0.9731013178825378,
+    "right_ankle_conf": 0.9593387842178345,
+    "ankle_midpoint_pixel": [
+      779.850341796875,
+      387.5007629394531
+    ]
+  },
+  {
+    "time": 38.6,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.913111686706543,
+      10.33818244934082
+    ],
+    "pose_iou": 0.8870857249738385,
+    "left_ankle_conf": 0.9744349122047424,
+    "right_ankle_conf": 0.9577600955963135,
+    "ankle_midpoint_pixel": [
+      704.1968994140625,
+      276.9243469238281
+    ]
+  },
+  {
+    "time": 38.7,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.335978031158447,
+      5.442704677581787
+    ],
+    "pose_iou": 0.9207658539354043,
+    "left_ankle_conf": 0.9873223900794983,
+    "right_ankle_conf": 0.9814456105232239,
+    "ankle_midpoint_pixel": [
+      762.8265380859375,
+      391.5947265625
+    ]
+  },
+  {
+    "time": 38.7,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.7392771244049072,
+      10.554622650146484
+    ],
+    "pose_iou": 0.6757931124677746,
+    "left_ankle_conf": 0.9902935028076172,
+    "right_ankle_conf": 0.9915094375610352,
+    "ankle_midpoint_pixel": [
+      690.7430419921875,
+      273.0538635253906
+    ]
+  },
+  {
+    "time": 38.8,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      4.098269462585449,
+      5.515676498413086
+    ],
+    "pose_iou": 0.9710212090240135,
+    "left_ankle_conf": 0.9928256273269653,
+    "right_ankle_conf": 0.9926338791847229,
+    "ankle_midpoint_pixel": [
+      739.6373291015625,
+      389.4528503417969
+    ]
+  },
+  {
+    "time": 38.8,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.52274227142334,
+      10.792387008666992
+    ],
+    "pose_iou": 0.8002709947665286,
+    "left_ankle_conf": 0.9371087551116943,
+    "right_ankle_conf": 0.9378113150596619,
+    "ankle_midpoint_pixel": [
+      674.39794921875,
+      268.89544677734375
+    ]
+  },
+  {
+    "time": 38.9,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.8703339099884033,
+      4.892949104309082
+    ],
+    "pose_iou": 0.9228893664259245,
+    "left_ankle_conf": 0.9946697354316711,
+    "right_ankle_conf": 0.9942212104797363,
+    "ankle_midpoint_pixel": [
+      720.801513671875,
+      408.7600402832031
+    ]
+  },
+  {
+    "time": 38.9,
+    "side": "Far",
+    "accepted": false,
+    "reason": "weak_pose_match",
+    "pose_court_m": null,
+    "pose_iou": 0.013174632925745266
+  },
+  {
+    "time": 39.0,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.6352767944335938,
+      4.639791965484619
+    ],
+    "pose_iou": 0.9110686691842023,
+    "left_ankle_conf": 0.9914640784263611,
+    "right_ankle_conf": 0.9908809661865234,
+    "ankle_midpoint_pixel": [
+      698.4544677734375,
+      417.0457763671875
+    ]
+  },
+  {
+    "time": 39.0,
+    "side": "Far",
+    "accepted": false,
+    "reason": "no_pose",
+    "pose_court_m": null
+  },
+  {
+    "time": 39.1,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.527841091156006,
+      4.464292049407959
+    ],
+    "pose_iou": 0.9312579471892183,
+    "left_ankle_conf": 0.9848769903182983,
+    "right_ankle_conf": 0.9862223267555237,
+    "ankle_midpoint_pixel": [
+      688.1903076171875,
+      422.9290771484375
+    ]
+  },
+  {
+    "time": 39.1,
+    "side": "Far",
+    "accepted": false,
+    "reason": "ground_not_updated",
+    "pose_court_m": null
+  },
+  {
+    "time": 39.2,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.429816484451294,
+      4.296114444732666
+    ],
+    "pose_iou": 0.9792935985302994,
+    "left_ankle_conf": 0.9900462031364441,
+    "right_ankle_conf": 0.9907297492027283,
+    "ankle_midpoint_pixel": [
+      678.6524658203125,
+      428.6846008300781
+    ]
+  },
+  {
+    "time": 39.2,
+    "side": "Far",
+    "accepted": false,
+    "reason": "no_pose",
+    "pose_court_m": null
+  },
+  {
+    "time": 39.3,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.284013032913208,
+      4.14824914932251
+    ],
+    "pose_iou": 0.9142114442516125,
+    "left_ankle_conf": 0.9931187629699707,
+    "right_ankle_conf": 0.992925763130188,
+    "ankle_midpoint_pixel": [
+      663.9442138671875,
+      433.85223388671875
+    ]
+  },
+  {
+    "time": 39.3,
+    "side": "Far",
+    "accepted": false,
+    "reason": "no_pose",
+    "pose_court_m": null
+  },
+  {
+    "time": 39.4,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.072984457015991,
+      3.6236279010772705
+    ],
+    "pose_iou": 0.9531450606645201,
+    "left_ankle_conf": 0.988836407661438,
+    "right_ankle_conf": 0.9911983609199524,
+    "ankle_midpoint_pixel": [
+      642.2190551757812,
+      452.9286193847656
+    ]
+  },
+  {
+    "time": 39.4,
+    "side": "Far",
+    "accepted": false,
+    "reason": "no_pose",
+    "pose_court_m": null
+  },
+  {
+    "time": 39.5,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      2.84649395942688,
+      3.111711025238037
+    ],
+    "pose_iou": 0.9444568157558983,
+    "left_ankle_conf": 0.9825505614280701,
+    "right_ankle_conf": 0.9795663952827454,
+    "ankle_midpoint_pixel": [
+      617.2958984375,
+      472.82232666015625
+    ]
+  },
+  {
+    "time": 39.5,
+    "side": "Far",
+    "accepted": false,
+    "reason": "no_pose",
+    "pose_court_m": null
+  },
+  {
+    "time": 39.6,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      2.687809467315674,
+      3.0144739151000977
+    ],
+    "pose_iou": 0.9278824781651263,
+    "left_ankle_conf": 0.9630267024040222,
+    "right_ankle_conf": 0.9515601396560669,
+    "ankle_midpoint_pixel": [
+      599.5310668945312,
+      476.7649841308594
+    ]
+  },
+  {
+    "time": 39.6,
+    "side": "Far",
+    "accepted": false,
+    "reason": "weak_pose_match",
+    "pose_court_m": null,
+    "pose_iou": 0.3655902479017059
+  },
+  {
+    "time": 39.7,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      2.863576889038086,
+      3.2109174728393555
+    ],
+    "pose_iou": 0.9672297345466662,
+    "left_ankle_conf": 0.995326042175293,
+    "right_ankle_conf": 0.9949713945388794,
+    "ankle_midpoint_pixel": [
+      619.318603515625,
+      468.865234375
+    ]
+  },
+  {
+    "time": 39.7,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      2.2277088165283203,
+      12.207027435302734
+    ],
+    "pose_iou": 0.8860108847601624,
+    "left_ankle_conf": 0.9922099113464355,
+    "right_ankle_conf": 0.9908251166343689,
+    "ankle_midpoint_pixel": [
+      583.4925537109375,
+      245.88658142089844
+    ]
+  },
+  {
+    "time": 39.8,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.0338845252990723,
+      3.2432122230529785
+    ],
+    "pose_iou": 0.9074340536536455,
+    "left_ankle_conf": 0.9677093625068665,
+    "right_ankle_conf": 0.9623947739601135,
+    "ankle_midpoint_pixel": [
+      637.9923095703125,
+      467.57110595703125
+    ]
+  },
+  {
+    "time": 39.8,
+    "side": "Far",
+    "accepted": false,
+    "reason": "no_pose",
+    "pose_court_m": null
+  },
+  {
+    "time": 39.9,
+    "side": "Near",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      3.2912421226501465,
+      3.5571141242980957
+    ],
+    "pose_iou": 0.9358403634868713,
+    "left_ankle_conf": 0.9824156761169434,
+    "right_ankle_conf": 0.9887174367904663,
+    "ankle_midpoint_pixel": [
+      665.63134765625,
+      455.40997314453125
+    ]
+  },
+  {
+    "time": 39.9,
+    "side": "Far",
+    "accepted": true,
+    "reason": "accepted",
+    "pose_court_m": [
+      2.579979181289673,
+      11.949926376342773
+    ],
+    "pose_iou": 0.7235970064656067,
+    "left_ankle_conf": 0.9930195212364197,
+    "right_ankle_conf": 0.9931150078773499,
+    "ankle_midpoint_pixel": [
+      607.3013916015625,
+      249.83029174804688
+    ]
+  }
+]

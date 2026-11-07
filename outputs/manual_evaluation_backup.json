@@ -1,0 +1,164 @@
+{
+  "description": "Manual badminton player position references. Video clicks project visible floor-contact points; court clicks are subjective estimates.",
+  "annotations": [
+    {
+      "time": 21.7,
+      "frame": 542,
+      "players": {
+        "Near": {
+          "court_m": [
+            1.780049204826355,
+            4.645909309387207
+          ],
+          "pixel": [
+            512.8571428571429,
+            417.14285714285717
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Far": {
+          "court_m": [
+            3.0704379081726074,
+            10.029465675354004
+          ],
+          "pixel": [
+            641.4285714285714,
+            282.85714285714283
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 22.2,
+      "frame": 555,
+      "players": {
+        "Far": {
+          "court_m": [
+            3.2952888011932373,
+            11.660908699035645
+          ],
+          "pixel": [
+            657.1428571428571,
+            254.28571428571428
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            1.6069430112838745,
+            4.1835713386535645
+          ],
+          "pixel": [
+            491.42857142857144,
+            432.85714285714283
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 22.4,
+      "frame": 560,
+      "players": {
+        "Near": {
+          "court_m": [
+            1.622910976409912,
+            3.706942319869995
+          ],
+          "pixel": [
+            488.57142857142856,
+            450.0
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Far": {
+          "court_m": [
+            3.025,
+            12.0
+          ],
+          "pixel": null,
+          "method": "estimated_ground_position"
+        }
+      }
+    },
+    {
+      "time": 22.6,
+      "frame": 565,
+      "players": {
+        "Near": {
+          "court_m": [
+            1.9058643579483032,
+            3.184755802154541
+          ],
+          "pixel": [
+            514.2857142857143,
+            470.0
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Far": {
+          "court_m": [
+            2.9,
+            12.275
+          ],
+          "pixel": null,
+          "method": "estimated_ground_position"
+        }
+      }
+    },
+    {
+      "time": 22.8,
+      "frame": 570,
+      "players": {
+        "Far": {
+          "court_m": [
+            2.725,
+            12.425
+          ],
+          "pixel": null,
+          "method": "estimated_ground_position"
+        },
+        "Near": {
+          "court_m": [
+            2.542311906814575,
+            2.176759958267212
+          ],
+          "pixel": [
+            580.0,
+            512.8571428571429
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    },
+    {
+      "time": 22.9,
+      "frame": 572,
+      "players": {
+        "Far": {
+          "court_m": [
+            2.691897392272949,
+            12.583904266357422
+          ],
+          "pixel": [
+            615.7142857142857,
+            240.0
+          ],
+          "method": "visible_foot_contact"
+        },
+        "Near": {
+          "court_m": [
+            2.656984806060791,
+            1.9913452863693237
+          ],
+          "pixel": [
+            592.8571428571429,
+            521.4285714285714
+          ],
+          "method": "visible_foot_contact"
+        }
+      }
+    }
+  ]
+}

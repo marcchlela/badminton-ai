@@ -1,0 +1,241 @@
+{
+  "tolerance_m": 0.5,
+  "reference_frames": 22,
+  "trackers": {
+    "Recovered": {
+      "all": {
+        "reference_count": 43,
+        "predictions_available": 43,
+        "coverage": 1.0,
+        "mean_error_m": 0.5347341363588949,
+        "median_error_m": 0.48029051509211995,
+        "max_error_m": 1.1696982961791027,
+        "within_50cm_rate": 0.5116279069767442
+      },
+      "visible_contacts": {
+        "reference_count": 38,
+        "predictions_available": 38,
+        "coverage": 1.0,
+        "mean_error_m": 0.5210761176236888,
+        "median_error_m": 0.456371523489886,
+        "max_error_m": 1.1696982961791027,
+        "within_50cm_rate": 0.5526315789473685
+      },
+      "airborne_estimates": {
+        "reference_count": 5,
+        "predictions_available": 5,
+        "coverage": 1.0,
+        "mean_error_m": 0.6385350787464616,
+        "median_error_m": 0.6842801630943178,
+        "max_error_m": 0.8941825071107524,
+        "within_50cm_rate": 0.2
+      },
+      "near_visible": {
+        "reference_count": 21,
+        "predictions_available": 21,
+        "coverage": 1.0,
+        "mean_error_m": 0.4073183674591324,
+        "median_error_m": 0.35016371724230994,
+        "max_error_m": 0.8461627728318469,
+        "within_50cm_rate": 0.7142857142857143
+      },
+      "far_visible": {
+        "reference_count": 17,
+        "predictions_available": 17,
+        "coverage": 1.0,
+        "mean_error_m": 0.6616003972387289,
+        "median_error_m": 0.6130910696818495,
+        "max_error_m": 1.1696982961791027,
+        "within_50cm_rate": 0.35294117647058826
+      }
+    },
+    "Kalman v2": {
+      "all": {
+        "reference_count": 43,
+        "predictions_available": 43,
+        "coverage": 1.0,
+        "mean_error_m": 0.6197415867812098,
+        "median_error_m": 0.5913767377193841,
+        "max_error_m": 1.2611030084334292,
+        "within_50cm_rate": 0.4418604651162791
+      },
+      "visible_contacts": {
+        "reference_count": 38,
+        "predictions_available": 38,
+        "coverage": 1.0,
+        "mean_error_m": 0.5517497782538585,
+        "median_error_m": 0.4994617587154242,
+        "max_error_m": 1.2611030084334292,
+        "within_50cm_rate": 0.5
+      },
+      "airborne_estimates": {
+        "reference_count": 5,
+        "predictions_available": 5,
+        "coverage": 1.0,
+        "mean_error_m": 1.1364793315890793,
+        "median_error_m": 1.132212691307634,
+        "max_error_m": 1.184132561186973,
+        "within_50cm_rate": 0.0
+      },
+      "near_visible": {
+        "reference_count": 21,
+        "predictions_available": 21,
+        "coverage": 1.0,
+        "mean_error_m": 0.38192489214147285,
+        "median_error_m": 0.3047767115849589,
+        "max_error_m": 0.9898065607891515,
+        "within_50cm_rate": 0.7142857142857143
+      },
+      "far_visible": {
+        "reference_count": 17,
+        "predictions_available": 17,
+        "coverage": 1.0,
+        "mean_error_m": 0.7615334610985702,
+        "median_error_m": 0.7896606961284452,
+        "max_error_m": 1.2611030084334292,
+        "within_50cm_rate": 0.23529411764705882
+      }
+    },
+    "Kalman v3": {
+      "all": {
+        "reference_count": 43,
+        "predictions_available": 43,
+        "coverage": 1.0,
+        "mean_error_m": 0.58140754140363,
+        "median_error_m": 0.5613129452358411,
+        "max_error_m": 1.1762995750041814,
+        "within_50cm_rate": 0.46511627906976744
+      },
+      "visible_contacts": {
+        "reference_count": 38,
+        "predictions_available": 38,
+        "coverage": 1.0,
+        "mean_error_m": 0.528613260621411,
+        "median_error_m": 0.4752217624104062,
+        "max_error_m": 1.1762995750041814,
+        "within_50cm_rate": 0.5263157894736842
+      },
+      "airborne_estimates": {
+        "reference_count": 5,
+        "predictions_available": 5,
+        "coverage": 1.0,
+        "mean_error_m": 0.9826440753484947,
+        "median_error_m": 0.9765284467560378,
+        "max_error_m": 1.0287389106342093,
+        "within_50cm_rate": 0.0
+      },
+      "near_visible": {
+        "reference_count": 21,
+        "predictions_available": 21,
+        "coverage": 1.0,
+        "mean_error_m": 0.36864790398403474,
+        "median_error_m": 0.28994492575519815,
+        "max_error_m": 0.9648495392210268,
+        "within_50cm_rate": 0.7619047619047619
+      },
+      "far_visible": {
+        "reference_count": 17,
+        "predictions_available": 17,
+        "coverage": 1.0,
+        "mean_error_m": 0.7262175247028759,
+        "median_error_m": 0.8260360498724926,
+        "max_error_m": 1.1762995750041814,
+        "within_50cm_rate": 0.23529411764705882
+      }
+    },
+    "v4 Pose": {
+      "all": {
+        "reference_count": 43,
+        "predictions_available": 43,
+        "coverage": 1.0,
+        "mean_error_m": 0.4387674334636637,
+        "median_error_m": 0.34194402867863244,
+        "max_error_m": 1.1762995750041814,
+        "within_50cm_rate": 0.6976744186046512
+      },
+      "visible_contacts": {
+        "reference_count": 38,
+        "predictions_available": 38,
+        "coverage": 1.0,
+        "mean_error_m": 0.36720471742618593,
+        "median_error_m": 0.3006820899657058,
+        "max_error_m": 1.1762995750041814,
+        "within_50cm_rate": 0.7894736842105263
+      },
+      "airborne_estimates": {
+        "reference_count": 5,
+        "predictions_available": 5,
+        "coverage": 1.0,
+        "mean_error_m": 0.9826440753484947,
+        "median_error_m": 0.9765284467560378,
+        "max_error_m": 1.0287389106342093,
+        "within_50cm_rate": 0.0
+      },
+      "near_visible": {
+        "reference_count": 21,
+        "predictions_available": 21,
+        "coverage": 1.0,
+        "mean_error_m": 0.28079762366701555,
+        "median_error_m": 0.28606979188800197,
+        "max_error_m": 0.6011885928097854,
+        "within_50cm_rate": 0.9523809523809523
+      },
+      "far_visible": {
+        "reference_count": 17,
+        "predictions_available": 17,
+        "coverage": 1.0,
+        "mean_error_m": 0.4739428920698671,
+        "median_error_m": 0.35773257572514355,
+        "max_error_m": 1.1762995750041814,
+        "within_50cm_rate": 0.5882352941176471
+      }
+    },
+    "v4 Hybrid": {
+      "all": {
+        "reference_count": 43,
+        "predictions_available": 43,
+        "coverage": 1.0,
+        "mean_error_m": 0.38871041375532533,
+        "median_error_m": 0.28019362954639504,
+        "max_error_m": 1.1762995750041814,
+        "within_50cm_rate": 0.7441860465116279
+      },
+      "visible_contacts": {
+        "reference_count": 38,
+        "predictions_available": 38,
+        "coverage": 1.0,
+        "mean_error_m": 0.31056124775622407,
+        "median_error_m": 0.22552123330327287,
+        "max_error_m": 1.1762995750041814,
+        "within_50cm_rate": 0.8421052631578947
+      },
+      "airborne_estimates": {
+        "reference_count": 5,
+        "predictions_available": 5,
+        "coverage": 1.0,
+        "mean_error_m": 0.9826440753484947,
+        "median_error_m": 0.9765284467560378,
+        "max_error_m": 1.0287389106342093,
+        "within_50cm_rate": 0.0
+      },
+      "near_visible": {
+        "reference_count": 21,
+        "predictions_available": 21,
+        "coverage": 1.0,
+        "mean_error_m": 0.2103497870181517,
+        "median_error_m": 0.17591219376976244,
+        "max_error_m": 0.5804260846889334,
+        "within_50cm_rate": 0.9523809523809523
+      },
+      "far_visible": {
+        "reference_count": 17,
+        "predictions_available": 17,
+        "coverage": 1.0,
+        "mean_error_m": 0.4343518757267841,
+        "median_error_m": 0.3117784091592132,
+        "max_error_m": 1.1762995750041814,
+        "within_50cm_rate": 0.7058823529411765
+      }
+    }
+  }
+}

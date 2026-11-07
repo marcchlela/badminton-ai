@@ -1,0 +1,2300 @@
+[
+  {
+    "time": 20.0,
+    "frame": 500,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8726428747177124,
+        "pixel": [
+          724.0,
+          509
+        ],
+        "bbox": [
+          668,
+          311,
+          112,
+          198
+        ],
+        "image_center": [
+          724.0,
+          410.0
+        ],
+        "court_m": [
+          3.8386855125427246,
+          2.8050472736358643
+        ],
+        "raw_court_m": [
+          3.769296646118164,
+          2.260483741760254
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.8386855125427246,
+          2.8050472736358643
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.5958887934684753,
+        "pixel": [
+          710.5,
+          273
+        ],
+        "bbox": [
+          685,
+          157,
+          51,
+          116
+        ],
+        "image_center": [
+          710.5,
+          215.0
+        ],
+        "court_m": [
+          4.023410320281982,
+          11.393572807312012
+        ],
+        "raw_court_m": [
+          4.00679874420166,
+          10.553781509399414
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          4.023410320281982,
+          11.393572807312012
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 20.1,
+    "frame": 503,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8658329844474792,
+        "pixel": [
+          722.5,
+          509
+        ],
+        "bbox": [
+          667,
+          313,
+          111,
+          196
+        ],
+        "image_center": [
+          723.642333984375,
+          410.23846435546875
+        ],
+        "court_m": [
+          3.88924503326416,
+          2.8040881156921387
+        ],
+        "raw_court_m": [
+          3.7565083503723145,
+          2.2604973316192627
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.88924503326416,
+          2.8040881156921387
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.46852120757102966,
+        "pixel": [
+          720.5,
+          269
+        ],
+        "bbox": [
+          697,
+          163,
+          47,
+          106
+        ],
+        "image_center": [
+          712.8845825195312,
+          215.23846435546875
+        ],
+        "court_m": [
+          4.174470901489258,
+          11.516302108764648
+        ],
+        "raw_court_m": [
+          4.153011322021484,
+          10.777131080627441
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          4.174470901489258,
+          11.516302108764648
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 20.2,
+    "frame": 505,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.879748523235321,
+        "pixel": [
+          721.0,
+          509
+        ],
+        "bbox": [
+          666,
+          309,
+          110,
+          200
+        ],
+        "image_center": [
+          722.7639770507812,
+          409.82733154296875
+        ],
+        "court_m": [
+          3.8777546882629395,
+          2.803054094314575
+        ],
+        "raw_court_m": [
+          3.7437193393707275,
+          2.2605109214782715
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.8777546882629395,
+          2.803054094314575
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.45717763900756836,
+        "pixel": [
+          723.5,
+          279
+        ],
+        "bbox": [
+          706,
+          165,
+          35,
+          114
+        ],
+        "image_center": [
+          716.4146118164062,
+          217.48519897460938
+        ],
+        "court_m": [
+          4.100914478302002,
+          10.923484802246094
+        ],
+        "raw_court_m": [
+          4.1660380363464355,
+          10.2216215133667
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          4.100914478302002,
+          10.923484802246094
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 20.3,
+    "frame": 508,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8865960240364075,
+        "pixel": [
+          705.0,
+          510
+        ],
+        "bbox": [
+          657,
+          299,
+          96,
+          211
+        ],
+        "image_center": [
+          716.0285034179688,
+          407.80621337890625
+        ],
+        "court_m": [
+          3.757180690765381,
+          2.923806667327881
+        ],
+        "raw_court_m": [
+          3.606405258178711,
+          2.238551139831543
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.757180690765381,
+          2.923806667327881
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.604222297668457,
+        "pixel": [
+          730.0,
+          288
+        ],
+        "bbox": [
+          707,
+          175,
+          46,
+          113
+        ],
+        "image_center": [
+          721.5989990234375,
+          222.81578063964844
+        ],
+        "court_m": [
+          4.218907833099365,
+          10.683444023132324
+        ],
+        "raw_court_m": [
+          4.226756572723389,
+          9.743857383728027
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          4.218907833099365,
+          10.683444023132324
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 20.4,
+    "frame": 510,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.891808807849884,
+        "pixel": [
+          703.5,
+          506
+        ],
+        "bbox": [
+          658,
+          294,
+          91,
+          212
+        ],
+        "image_center": [
+          710.8171997070312,
+          404.6064147949219
+        ],
+        "court_m": [
+          3.7045583724975586,
+          2.9947004318237305
+        ],
+        "raw_court_m": [
+          3.597032070159912,
+          2.327404022216797
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.7045583724975586,
+          2.9947004318237305
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.5169154405593872,
+        "pixel": [
+          735.5,
+          289
+        ],
+        "bbox": [
+          709,
+          182,
+          53,
+          107
+        ],
+        "image_center": [
+          727.3611450195312,
+          228.0741729736328
+        ],
+        "court_m": [
+          4.258979797363281,
+          9.769732475280762
+        ],
+        "raw_court_m": [
+          4.295454502105713,
+          9.691242218017578
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "measured",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "weak_pose_match"
+      }
+    }
+  },
+  {
+    "time": 20.5,
+    "frame": 512,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8510085940361023,
+        "pixel": [
+          703.0,
+          502
+        ],
+        "bbox": [
+          661,
+          298,
+          84,
+          204
+        ],
+        "image_center": [
+          707.2296752929688,
+          402.5272521972656
+        ],
+        "court_m": [
+          3.669901132583618,
+          3.053339958190918
+        ],
+        "raw_court_m": [
+          3.5961644649505615,
+          2.4173758029937744
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.669901132583618,
+          3.053339958190918
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.4145168960094452,
+        "pixel": [
+          739.5,
+          308
+        ],
+        "bbox": [
+          713,
+          185,
+          53,
+          123
+        ],
+        "image_center": [
+          732.78076171875,
+          236.11260986328125
+        ],
+        "court_m": [
+          4.5530195236206055,
+          9.572148323059082
+        ],
+        "raw_court_m": [
+          4.291210174560547,
+          8.75374984741211
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          4.5530195236206055,
+          9.572148323059082
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 20.6,
+    "frame": 515,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8305971026420593,
+        "pixel": [
+          700.5,
+          507
+        ],
+        "bbox": [
+          656,
+          310,
+          89,
+          197
+        ],
+        "image_center": [
+          703.8983154296875,
+          404.906005859375
+        ],
+        "court_m": [
+          3.6186065673828125,
+          3.087510108947754
+        ],
+        "raw_court_m": [
+          3.570505380630493,
+          2.3051183223724365
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.6186065673828125,
+          3.087510108947754
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.6041772365570068,
+        "pixel": [
+          745.0,
+          310
+        ],
+        "bbox": [
+          722,
+          185,
+          46,
+          125
+        ],
+        "image_center": [
+          738.5773315429688,
+          241.62841796875
+        ],
+        "court_m": [
+          4.464709758758545,
+          9.719281196594238
+        ],
+        "raw_court_m": [
+          4.353637218475342,
+          8.65908145904541
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          4.464709758758545,
+          9.719281196594238
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 20.7,
+    "frame": 518,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8156745433807373,
+        "pixel": [
+          687.0,
+          505
+        ],
+        "bbox": [
+          625,
+          310,
+          124,
+          195
+        ],
+        "image_center": [
+          695.869873046875,
+          405.98028564453125
+        ],
+        "court_m": [
+          3.6251296997070312,
+          2.992447853088379
+        ],
+        "raw_court_m": [
+          3.456221103668213,
+          2.3499600887298584
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.6251296997070312,
+          2.992447853088379
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.5701769590377808,
+        "pixel": [
+          744.5,
+          306
+        ],
+        "bbox": [
+          722,
+          179,
+          45,
+          127
+        ],
+        "image_center": [
+          741.927978515625,
+          242.79600524902344
+        ],
+        "court_m": [
+          4.43336296081543,
+          9.540872573852539
+        ],
+        "raw_court_m": [
+          4.3593430519104,
+          8.84778118133545
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          4.43336296081543,
+          9.540872573852539
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 20.8,
+    "frame": 520,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8419366478919983,
+        "pixel": [
+          698.5,
+          495
+        ],
+        "bbox": [
+          637,
+          310,
+          123,
+          185
+        ],
+        "image_center": [
+          696.16064453125,
+          404.39605712890625
+        ],
+        "court_m": [
+          3.6837310791015625,
+          3.1636972427368164
+        ],
+        "raw_court_m": [
+          3.5630011558532715,
+          2.5776565074920654
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.6837310791015625,
+          3.1636972427368164
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.7306005358695984,
+        "pixel": [
+          740.5,
+          305
+        ],
+        "bbox": [
+          716,
+          181,
+          49,
+          124
+        ],
+        "image_center": [
+          742.1033935546875,
+          243.64492797851562
+        ],
+        "court_m": [
+          4.39389705657959,
+          9.579273223876953
+        ],
+        "raw_court_m": [
+          4.312280654907227,
+          8.896068572998047
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          4.39389705657959,
+          9.579273223876953
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 20.9,
+    "frame": 522,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8762509822845459,
+        "pixel": [
+          705.5,
+          489
+        ],
+        "bbox": [
+          645,
+          313,
+          121,
+          176
+        ],
+        "image_center": [
+          699.6654663085938,
+          402.7380065917969
+        ],
+        "court_m": [
+          3.7388055324554443,
+          3.252599000930786
+        ],
+        "raw_court_m": [
+          3.6295924186706543,
+          2.717775583267212
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.7388055324554443,
+          3.252599000930786
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.6679847240447998,
+        "pixel": [
+          738.0,
+          304
+        ],
+        "bbox": [
+          711,
+          180,
+          54,
+          124
+        ],
+        "image_center": [
+          740.9573974609375,
+          243.6081085205078
+        ],
+        "court_m": [
+          4.368864059448242,
+          9.618270874023438
+        ],
+        "raw_court_m": [
+          4.283816814422607,
+          8.944365501403809
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          4.368864059448242,
+          9.618270874023438
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 21.0,
+    "frame": 525,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8731718063354492,
+        "pixel": [
+          696.0,
+          485
+        ],
+        "bbox": [
+          627,
+          304,
+          138,
+          181
+        ],
+        "image_center": [
+          697.4994506835938,
+          398.7314453125
+        ],
+        "court_m": [
+          3.561788320541382,
+          3.379565477371216
+        ],
+        "raw_court_m": [
+          3.549135208129883,
+          2.8129396438598633
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.561788320541382,
+          3.379565477371216
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.8126034736633301,
+        "pixel": [
+          728.0,
+          305
+        ],
+        "bbox": [
+          691,
+          179,
+          74,
+          126
+        ],
+        "image_center": [
+          735.5302734375,
+          243.49081420898438
+        ],
+        "court_m": [
+          4.226131439208984,
+          9.654462814331055
+        ],
+        "raw_court_m": [
+          4.15576171875,
+          8.897904396057129
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          4.226131439208984,
+          9.654462814331055
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 21.1,
+    "frame": 528,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.6679902076721191,
+        "pixel": [
+          649.5,
+          470
+        ],
+        "bbox": [
+          605,
+          308,
+          89,
+          162
+        ],
+        "image_center": [
+          674.5416870117188,
+          393.7674255371094
+        ],
+        "court_m": [
+          3.486088752746582,
+          3.6742496490478516
+        ],
+        "raw_court_m": [
+          3.1386988162994385,
+          3.1816229820251465
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.486088752746582,
+          3.6742496490478516
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.8209019303321838,
+        "pixel": [
+          723.0,
+          305
+        ],
+        "bbox": [
+          685,
+          177,
+          76,
+          128
+        ],
+        "image_center": [
+          729.8395385742188,
+          242.86972045898438
+        ],
+        "court_m": [
+          4.167152404785156,
+          9.736750602722168
+        ],
+        "raw_court_m": [
+          4.0931315422058105,
+          8.898639678955078
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          4.167152404785156,
+          9.736750602722168
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 21.2,
+    "frame": 530,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.7274753451347351,
+        "pixel": [
+          623.0,
+          465
+        ],
+        "bbox": [
+          560,
+          324,
+          126,
+          141
+        ],
+        "image_center": [
+          648.3684692382812,
+          393.42132568359375
+        ],
+        "court_m": [
+          3.3706352710723877,
+          3.670417308807373
+        ],
+        "raw_court_m": [
+          2.896146774291992,
+          3.3090507984161377
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.3706352710723877,
+          3.670417308807373
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.8003550171852112,
+        "pixel": [
+          709.5,
+          301
+        ],
+        "bbox": [
+          675,
+          171,
+          69,
+          130
+        ],
+        "image_center": [
+          720.0579833984375,
+          240.07659912109375
+        ],
+        "court_m": [
+          4.075033187866211,
+          9.727744102478027
+        ],
+        "raw_court_m": [
+          3.9320666790008545,
+          9.093828201293945
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          4.075033187866211,
+          9.727744102478027
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 21.3,
+    "frame": 532,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.856795608997345,
+        "pixel": [
+          610.0,
+          470
+        ],
+        "bbox": [
+          535,
+          321,
+          150,
+          149
+        ],
+        "image_center": [
+          626.826171875,
+          393.77703857421875
+        ],
+        "court_m": [
+          3.286123275756836,
+          3.737081289291382
+        ],
+        "raw_court_m": [
+          2.7790558338165283,
+          3.1825368404388428
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.286123275756836,
+          3.737081289291382
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.7728803753852844,
+        "pixel": [
+          694.0,
+          297
+        ],
+        "bbox": [
+          670,
+          162,
+          48,
+          135
+        ],
+        "image_center": [
+          706.9229125976562,
+          235.28195190429688
+        ],
+        "court_m": [
+          3.8587894439697266,
+          9.957437515258789
+        ],
+        "raw_court_m": [
+          3.7423317432403564,
+          9.293109893798828
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.8587894439697266,
+          9.957437515258789
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 21.4,
+    "frame": 535,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8618507385253906,
+        "pixel": [
+          565.5,
+          456
+        ],
+        "bbox": [
+          480,
+          328,
+          171,
+          128
+        ],
+        "image_center": [
+          593.3782958984375,
+          392.4172668457031
+        ],
+        "court_m": [
+          2.8317301273345947,
+          4.150453567504883
+        ],
+        "raw_court_m": [
+          2.3570659160614014,
+          3.5444629192352295
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          2.8317301273345947,
+          4.150453567504883
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.664501965045929,
+        "pixel": [
+          675.0,
+          287
+        ],
+        "bbox": [
+          654,
+          169,
+          42,
+          118
+        ],
+        "image_center": [
+          690.2078857421875,
+          231.68405151367188
+        ],
+        "court_m": [
+          3.5544965267181396,
+          10.5078125
+        ],
+        "raw_court_m": [
+          3.5101935863494873,
+          9.805267333984375
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.5544965267181396,
+          10.5078125
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 21.5,
+    "frame": 538,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.829164981842041,
+        "pixel": [
+          552.0,
+          449
+        ],
+        "bbox": [
+          477,
+          342,
+          150,
+          107
+        ],
+        "image_center": [
+          567.6378173828125,
+          393.3338623046875
+        ],
+        "court_m": [
+          2.7171761989593506,
+          4.264430999755859
+        ],
+        "raw_court_m": [
+          2.220942497253418,
+          3.731919765472412
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          2.7171761989593506,
+          4.264430999755859
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.4976936876773834,
+        "pixel": [
+          656.5,
+          306
+        ],
+        "bbox": [
+          628,
+          185,
+          57,
+          121
+        ],
+        "image_center": [
+          671.6961059570312,
+          237.85145568847656
+        ],
+        "court_m": [
+          3.444730758666992,
+          9.123682022094727
+        ],
+        "raw_court_m": [
+          3.258483409881592,
+          8.86060905456543
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "measured",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "no_pose"
+      }
+    }
+  },
+  {
+    "time": 21.6,
+    "frame": 540,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.4611934423446655,
+        "pixel": [
+          546.5,
+          440
+        ],
+        "bbox": [
+          479,
+          342,
+          135,
+          98
+        ],
+        "image_center": [
+          550.521484375,
+          391.816162109375
+        ],
+        "court_m": [
+          2.5749053955078125,
+          4.754530429840088
+        ],
+        "raw_court_m": [
+          2.154879093170166,
+          3.9794132709503174
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          2.5749053955078125,
+          4.754530429840088
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.4149163067340851,
+        "pixel": [
+          658.0,
+          258
+        ],
+        "bbox": [
+          643,
+          189,
+          30,
+          69
+        ],
+        "image_center": [
+          661.7276000976562,
+          231.1336669921875
+        ],
+        "court_m": [
+          3.354645252227783,
+          9.092259407043457
+        ],
+        "raw_court_m": [
+          3.305042266845703,
+          11.434595108032227
+        ],
+        "visual_detection": true,
+        "ground_updated": false,
+        "ground_age_seconds": 0.1,
+        "position_source": "predicted_from_track",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "ground_not_updated"
+      }
+    }
+  },
+  {
+    "time": 21.7,
+    "frame": 542,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.3148563504219055,
+        "pixel": [
+          532.0,
+          422
+        ],
+        "bbox": [
+          475,
+          338,
+          114,
+          84
+        ],
+        "image_center": [
+          534.3958129882812,
+          385.7440185546875
+        ],
+        "court_m": [
+          2.0175387859344482,
+          4.23876953125
+        ],
+        "raw_court_m": [
+          1.9814692735671997,
+          4.499022960662842
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "low_confidence",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "weak_pose_match"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.6236611604690552,
+        "pixel": [
+          650.5,
+          303
+        ],
+        "bbox": [
+          628,
+          175,
+          45,
+          128
+        ],
+        "image_center": [
+          652.697998046875,
+          234.48936462402344
+        ],
+        "court_m": [
+          3.125417470932007,
+          9.925697326660156
+        ],
+        "raw_court_m": [
+          3.184183359146118,
+          9.00561809539795
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.125417470932007,
+          9.925697326660156
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 21.8,
+    "frame": 545,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.7034509778022766,
+        "pixel": [
+          510.0,
+          419
+        ],
+        "bbox": [
+          471,
+          311,
+          78,
+          108
+        ],
+        "image_center": [
+          515.3283081054688,
+          375.0691223144531
+        ],
+        "court_m": [
+          1.8177003860473633,
+          4.494398593902588
+        ],
+        "raw_court_m": [
+          1.7558343410491943,
+          4.589914798736572
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "measured",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "low_ankle_confidence"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.47519028186798096,
+        "pixel": [
+          651.0,
+          289
+        ],
+        "bbox": [
+          630,
+          167,
+          42,
+          122
+        ],
+        "image_center": [
+          648.0595092773438,
+          231.30523681640625
+        ],
+        "court_m": [
+          3.2713241577148438,
+          10.754993438720703
+        ],
+        "raw_court_m": [
+          3.1950795650482178,
+          9.70555591583252
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.2713241577148438,
+          10.754993438720703
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 21.9,
+    "frame": 548,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.7778320908546448,
+        "pixel": [
+          499.0,
+          430
+        ],
+        "bbox": [
+          462,
+          289,
+          74,
+          141
+        ],
+        "image_center": [
+          499.7627258300781,
+          366.22369384765625
+        ],
+        "court_m": [
+          1.7001118659973145,
+          4.750045299530029
+        ],
+        "raw_court_m": [
+          1.673710584640503,
+          4.265561580657959
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          1.7001118659973145,
+          4.750045299530029
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.4753732681274414,
+        "pixel": [
+          655.0,
+          273
+        ],
+        "bbox": [
+          633,
+          167,
+          44,
+          106
+        ],
+        "image_center": [
+          647.712646484375,
+          225.62417602539062
+        ],
+        "court_m": [
+          3.1589505672454834,
+          9.952827453613281
+        ],
+        "raw_court_m": [
+          3.254967451095581,
+          10.564598083496094
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "measured",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "weak_pose_match"
+      }
+    }
+  },
+  {
+    "time": 22.0,
+    "frame": 550,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.7798908948898315,
+        "pixel": [
+          492.0,
+          432
+        ],
+        "bbox": [
+          452,
+          275,
+          80,
+          157
+        ],
+        "image_center": [
+          488.2233581542969,
+          358.31024169921875
+        ],
+        "court_m": [
+          1.6542959213256836,
+          4.735069751739502
+        ],
+        "raw_court_m": [
+          1.6103039979934692,
+          4.208151817321777
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          1.6542959213256836,
+          4.735069751739502
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.5440213084220886,
+        "pixel": [
+          659.5,
+          272
+        ],
+        "bbox": [
+          633,
+          160,
+          53,
+          112
+        ],
+        "image_center": [
+          650.1278076171875,
+          220.39016723632812
+        ],
+        "court_m": [
+          3.193185806274414,
+          10.317574501037598
+        ],
+        "raw_court_m": [
+          3.3166491985321045,
+          10.619726181030273
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "measured",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "weak_pose_match"
+      }
+    }
+  },
+  {
+    "time": 22.1,
+    "frame": 552,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.6900033950805664,
+        "pixel": [
+          502.0,
+          430
+        ],
+        "bbox": [
+          455,
+          265,
+          94,
+          165
+        ],
+        "image_center": [
+          487.1676940917969,
+          351.00555419921875
+        ],
+        "court_m": [
+          1.6279373168945312,
+          4.724947452545166
+        ],
+        "raw_court_m": [
+          1.7031019926071167,
+          4.265436172485352
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          1.6279373168945312,
+          4.724947452545166
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.5150981545448303,
+        "pixel": [
+          657.5,
+          268
+        ],
+        "bbox": [
+          633,
+          164,
+          49,
+          104
+        ],
+        "image_center": [
+          651.0299682617188,
+          217.3709716796875
+        ],
+        "court_m": [
+          3.4763381481170654,
+          11.400338172912598
+        ],
+        "raw_court_m": [
+          3.2918379306793213,
+          10.846986770629883
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.4763381481170654,
+          11.400338172912598
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 22.2,
+    "frame": 555,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8374558687210083,
+        "pixel": [
+          503.0,
+          443
+        ],
+        "bbox": [
+          461,
+          260,
+          84,
+          183
+        ],
+        "image_center": [
+          488.0198669433594,
+          348.8599548339844
+        ],
+        "court_m": [
+          1.6202670335769653,
+          4.5252556800842285
+        ],
+        "raw_court_m": [
+          1.7434817552566528,
+          3.897639513015747
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          1.6202670335769653,
+          4.5252556800842285
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.44689685106277466,
+        "pixel": [
+          659.0,
+          272
+        ],
+        "bbox": [
+          634,
+          176,
+          50,
+          96
+        ],
+        "image_center": [
+          652.6221313476562,
+          219.50885009765625
+        ],
+        "court_m": [
+          3.527186632156372,
+          11.388519287109375
+        ],
+        "raw_court_m": [
+          3.309852123260498,
+          10.61982536315918
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          3.527186632156372,
+          11.388519287109375
+        ],
+        "pose_reason": "accepted"
+      }
+    }
+  },
+  {
+    "time": 22.3,
+    "frame": 558,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8159658312797546,
+        "pixel": [
+          505.5,
+          459
+        ],
+        "bbox": [
+          471,
+          271,
+          69,
+          188
+        ],
+        "image_center": [
+          490.59521484375,
+          354.324951171875
+        ],
+        "court_m": [
+          1.638632893562317,
+          4.109423637390137
+        ],
+        "raw_court_m": [
+          1.8025354146957397,
+          3.467348337173462
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          1.638632893562317,
+          4.109423637390137
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.44519904255867004,
+        "pixel": [
+          640.5,
+          225
+        ],
+        "bbox": [
+          618,
+          123,
+          45,
+          102
+        ],
+        "image_center": [
+          645.0531005859375,
+          197.11801147460938
+        ],
+        "court_m": [
+          3.182682514190674,
+          10.843056678771973
+        ],
+        "raw_court_m": [
+          3.0588431358337402,
+          13.615257263183594
+        ],
+        "visual_detection": true,
+        "ground_updated": false,
+        "ground_age_seconds": 0.1,
+        "position_source": "predicted_from_track",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "ground_not_updated"
+      }
+    }
+  },
+  {
+    "time": 22.4,
+    "frame": 560,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.7658371329307556,
+        "pixel": [
+          507.5,
+          473
+        ],
+        "bbox": [
+          474,
+          281,
+          67,
+          192
+        ],
+        "image_center": [
+          493.83111572265625,
+          363.5691223144531
+        ],
+        "court_m": [
+          1.690611720085144,
+          3.739713668823242
+        ],
+        "raw_court_m": [
+          1.8499157428741455,
+          3.1096975803375244
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          1.690611720085144,
+          3.739713668823242
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.4100243151187897,
+        "pixel": [
+          640.0,
+          221
+        ],
+        "bbox": [
+          615,
+          113,
+          50,
+          108
+        ],
+        "image_center": [
+          640.562744140625,
+          180.60235595703125
+        ],
+        "court_m": [
+          3.1381759643554688,
+          10.98108196258545
+        ],
+        "raw_court_m": [
+          3.0511040687561035,
+          13.907218933105469
+        ],
+        "visual_detection": true,
+        "ground_updated": false,
+        "ground_age_seconds": 0.2,
+        "position_source": "predicted_from_track",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "ground_not_updated"
+      }
+    }
+  },
+  {
+    "time": 22.5,
+    "frame": 562,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8279905319213867,
+        "pixel": [
+          514.5,
+          477
+        ],
+        "bbox": [
+          478,
+          287,
+          73,
+          190
+        ],
+        "image_center": [
+          499.7153015136719,
+          371.6353759765625
+        ],
+        "court_m": [
+          1.754941463470459,
+          3.5638341903686523
+        ],
+        "raw_court_m": [
+          1.9211015701293945,
+          3.0104291439056396
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          1.754941463470459,
+          3.5638341903686523
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.3291681408882141,
+        "pixel": [
+          626.5,
+          200
+        ],
+        "bbox": [
+          610,
+          106,
+          33,
+          94
+        ],
+        "image_center": [
+          631.749267578125,
+          164.4312286376953
+        ],
+        "court_m": [
+          3.0936694145202637,
+          11.119107246398926
+        ],
+        "raw_court_m": [
+          2.826876401901245,
+          15.560959815979004
+        ],
+        "visual_detection": true,
+        "ground_updated": false,
+        "ground_age_seconds": 0.3,
+        "position_source": "predicted_from_track",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "ground_not_updated"
+      }
+    }
+  },
+  {
+    "time": 22.6,
+    "frame": 565,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8539100885391235,
+        "pixel": [
+          524.0,
+          481
+        ],
+        "bbox": [
+          477,
+          291,
+          94,
+          190
+        ],
+        "image_center": [
+          508.24725341796875,
+          378.4161071777344
+        ],
+        "court_m": [
+          1.9505817890167236,
+          3.3664634227752686
+        ],
+        "raw_court_m": [
+          2.013756513595581,
+          2.9124395847320557
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          1.9505817890167236,
+          3.3664634227752686
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.3854261636734009,
+        "pixel": [
+          622.0,
+          197
+        ],
+        "bbox": [
+          601,
+          98,
+          42,
+          99
+        ],
+        "image_center": [
+          624.65966796875,
+          152.62225341796875
+        ],
+        "court_m": [
+          3.0491628646850586,
+          11.257132530212402
+        ],
+        "raw_court_m": [
+          2.7493717670440674,
+          15.8157320022583
+        ],
+        "visual_detection": true,
+        "ground_updated": false,
+        "ground_age_seconds": 0.4,
+        "position_source": "predicted_from_track",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "ground_not_updated"
+      }
+    }
+  },
+  {
+    "time": 22.7,
+    "frame": 568,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.8718891143798828,
+        "pixel": [
+          544.0,
+          496
+        ],
+        "bbox": [
+          485,
+          304,
+          118,
+          192
+        ],
+        "image_center": [
+          523.2249145507812,
+          389.1082763671875
+        ],
+        "court_m": [
+          2.2494335174560547,
+          3.147200345993042
+        ],
+        "raw_court_m": [
+          2.213770627975464,
+          2.5566179752349854
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          2.2494335174560547,
+          3.147200345993042
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.43250733613967896,
+        "pixel": [
+          618.5,
+          228
+        ],
+        "bbox": [
+          587,
+          104,
+          63,
+          124
+        ],
+        "image_center": [
+          619.11181640625,
+          154.91763305664062
+        ],
+        "court_m": [
+          3.0046563148498535,
+          11.395157814025879
+        ],
+        "raw_court_m": [
+          2.722327470779419,
+          13.407072067260742
+        ],
+        "visual_detection": true,
+        "ground_updated": false,
+        "ground_age_seconds": 0.5,
+        "position_source": "predicted_from_track",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "ground_not_updated"
+      }
+    }
+  },
+  {
+    "time": 22.8,
+    "frame": 570,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.891379714012146,
+        "pixel": [
+          570.0,
+          519
+        ],
+        "bbox": [
+          500,
+          319,
+          140,
+          200
+        ],
+        "image_center": [
+          544.7511596679688,
+          404.4374084472656
+        ],
+        "court_m": [
+          2.490652084350586,
+          2.7757248878479004
+        ],
+        "raw_court_m": [
+          2.462893009185791,
+          2.043489694595337
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          2.490652084350586,
+          2.7757248878479004
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.5508291721343994,
+        "pixel": [
+          607.5,
+          225
+        ],
+        "bbox": [
+          587,
+          122,
+          41,
+          103
+        ],
+        "image_center": [
+          610.9306030273438,
+          160.3849334716797
+        ],
+        "court_m": [
+          2.9601497650146484,
+          11.533183097839355
+        ],
+        "raw_court_m": [
+          2.5497052669525146,
+          13.62507152557373
+        ],
+        "visual_detection": true,
+        "ground_updated": false,
+        "ground_age_seconds": 0.6,
+        "position_source": "predicted_from_track",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "ground_not_updated"
+      }
+    }
+  },
+  {
+    "time": 22.9,
+    "frame": 572,
+    "players": {
+      "Near": {
+        "side": "Near",
+        "confidence": 0.9078208804130554,
+        "pixel": [
+          592.0,
+          530
+        ],
+        "bbox": [
+          520,
+          335,
+          144,
+          195
+        ],
+        "image_center": [
+          568.0857543945312,
+          419.8088684082031
+        ],
+        "court_m": [
+          2.6317145824432373,
+          2.220609426498413
+        ],
+        "raw_court_m": [
+          2.6550567150115967,
+          1.8108655214309692
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "pose_ankle_midpoint",
+        "pose_accepted": true,
+        "pose_court_m": [
+          2.6317145824432373,
+          2.220609426498413
+        ],
+        "pose_reason": "accepted"
+      },
+      "Far": {
+        "side": "Far",
+        "confidence": 0.627050518989563,
+        "pixel": [
+          600.5,
+          244
+        ],
+        "bbox": [
+          577,
+          118,
+          47,
+          126
+        ],
+        "image_center": [
+          603.0965576171875,
+          167.64190673828125
+        ],
+        "court_m": [
+          2.531226396560669,
+          12.238753318786621
+        ],
+        "raw_court_m": [
+          2.4728827476501465,
+          12.324891090393066
+        ],
+        "visual_detection": true,
+        "ground_updated": true,
+        "ground_age_seconds": 0.0,
+        "position_source": "measured",
+        "pose_accepted": false,
+        "pose_court_m": null,
+        "pose_reason": "no_pose"
+      }
+    }
+  }
+]
