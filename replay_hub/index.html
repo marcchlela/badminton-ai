@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Badminton AI | Replay Hub</title>
+
+<link rel="stylesheet" href="/assets/replay.css">
+</head>
+
+<body>
+<div class="app">
+
+<header class="topbar">
+  <div class="brand">
+    <small>BADMINTON AI / REPLAY STUDIO</small>
+    <strong>Replay Hub</strong>
+  </div>
+  <div class="top-status" id="status">Loading dataset...</div>
+</header>
+
+<div class="toolbar">
+  <div class="tool-left">
+    <label for="rallySelect" class="muted">Rally</label>
+    <select id="rallySelect"
+            aria-label="Select processed rally">
+      <option>Loading rallies...</option>
+    </select>
+
+    <div class="segment" aria-label="Viewing mode">
+      <button data-view="split" class="active">Split</button>
+      <button data-view="video">Video</button>
+      <button data-view="court">2D Court</button>
+    </div>
+  </div>
+
+  <div class="tool-right">
+    <a class="library-nav" href="/library">
+        Rally Library
+    </a>
+    <label for="focus" class="muted">Focus</label>
+    <select id="focus">
+      <option value="Both">Both</option>
+      <option value="Near">Near</option>
+      <option value="Far">Far</option>
+    </select>
+    <button id="settingsButton" aria-expanded="false">
+      ⚙ Overlays
+    </button>
+  </div>
+</div>
+
+<div class="workspace-wrap">
+  <div class="workspace split" id="workspace">
+
+    <section class="surface" id="videoSurface">
+      <div class="surface-header">
+        <span>ORIGINAL VIDEO</span>
+        <span id="videoSize">1280 × 720</span>
+      </div>
+
+      <div class="video-area" id="videoArea">
+        <div class="video-box" id="videoBox">
+          <img id="frameImage" alt="Badminton source frame">
+          <canvas id="videoCanvas"
+                  width="1280" height="720"></canvas>
+          <div class="video-loading" id="loading">
+            Loading video...
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="surface" id="courtSurface">
+      <div class="surface-header">
+        <span>TACTICAL COURT</span>
+        <span>2D</span>
+      </div>
+
+      <div class="court-area">
+        <canvas id="courtCanvas"
+                width="470" height="720"></canvas>
+      </div>
+
+      <div class="surface-footer">
+        Players: estimated ground positions.
+        Shuttle: illustrative image-space motion.
+      </div>
+    </section>
+
+  </div>
+
+  <aside class="settings" id="settingsPanel" hidden>
+    <div class="settings-head">
+      <strong>Overlay settings</strong>
+      <button id="closeSettings" aria-label="Close settings">✕</button>
+    </div>
+
+    <div class="settings-body">
+      <div class="settings-group">
+        <h3>Video overlays</h3>
+        <label class="toggle">
+          <input id="nearBox" type="checkbox" checked>
+          Near player box
+        </label>
+        <label class="toggle">
+          <input id="farBox" type="checkbox" checked>
+          Far player box
+        </label>
+        <label class="toggle">
+          <input id="shuttleVideo" type="checkbox" checked>
+          Shuttle marker
+        </label>
+        <label class="toggle">
+          <input id="shuttleTrailVideo" type="checkbox" checked>
+          Shuttle trail
+        </label>
+      </div>
+
+      <div class="settings-group">
+        <h3>Tactical court</h3>
+        <label class="toggle">
+          <input id="nearMarker" type="checkbox" checked>
+          Near player
+        </label>
+        <label class="toggle">
+          <input id="farMarker" type="checkbox" checked>
+          Far player
+        </label>
+        <label class="toggle">
+          <input id="playerTrails" type="checkbox" checked>
+          Player movement trails
+        </label>
+        <label class="toggle">
+          <input id="courtShuttle" type="checkbox" checked>
+          White shuttlecock
+        </label>
+        <label class="toggle">
+          <input id="courtShuttleTrail" type="checkbox" checked>
+          Shuttle trail
+        </label>
+      </div>
+
+      <p class="settings-note">
+        Player focus filters both video boxes and tactical
+        player markers. The underlying tracking data is unchanged.
+      </p>
+    </div>
+  </aside>
+</div>
+
+<div class="transport">
+  <div class="timeline-row">
+    <strong class="mono" id="timeLabel">36.00s / 45.96s</strong>
+    <span class="muted mono" id="frameLabel">Frame 900 / 1149</span>
+  </div>
+
+  <input type="range" id="seek"
+         min="0" max="249" value="0" step="1"
+         aria-label="Seek to frame">
+
+  <div class="transport-bottom">
+    <div class="muted" id="playStatus">Ready to play</div>
+
+    <div class="transport-actions">
+      <button id="restart" title="Restart (Home)">↺</button>
+      <button id="back" title="Previous frame (Left arrow)">◀|</button>
+      <button id="play" class="play-button" title="Play/Pause (Space)">
+        ▶ Play
+      </button>
+      <button id="next" title="Next frame (Right arrow)">|▶</button>
+
+      <select id="speed" aria-label="Playback speed">
+        <option value="0.25">0.25×</option>
+        <option value="0.5">0.5×</option>
+        <option value="1" selected>1×</option>
+        <option value="1.5">1.5×</option>
+        <option value="2">2×</option>
+      </select>
+    </div>
+
+    <div class="muted">25 FPS source</div>
+  </div>
+</div>
+
+<div class="inspector-strip">
+  <span class="muted">FRAME INSPECTOR</span>
+
+  <div class="inspector-values mono">
+    <span>Time <b id="inspectTime">36.00s</b></span>
+    <span>Shuttle <b id="inspectShuttle">—</b></span>
+    <span>
+      <i class="dot" style="background:var(--near)"></i>
+      Near <b id="inspectNear">—</b>
+    </span>
+    <span>
+      <i class="dot" style="background:var(--far)"></i>
+      Far <b id="inspectFar">—</b>
+    </span>
+  </div>
+</div>
+
+</div>
+
+<script src="/assets/replay.js"></script>
+</body>
+</html>

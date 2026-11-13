@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rally Library | Badminton AI</title>
+<link rel="stylesheet" href="/assets/library.css">
+</head>
+
+<body>
+<header>
+  <div>
+    <div class="eyebrow">BADMINTON AI / MATCH ANALYSIS</div>
+    <h1>Rally Library</h1>
+  </div>
+  <a class="button-link" href="/">Open Replay Hub</a>
+</header>
+
+<main>
+  <div class="intro">
+    <div>
+      <h2>Your processed rallies</h2>
+      <p>
+        Browse synchronized player and shuttle tracking datasets.
+        Select a rally to inspect its original footage and tactical view.
+      </p>
+    </div>
+
+    <div class="stats">
+      <div class="stat">
+        <strong id="totalRallies">—</strong>
+        <span>Registered rallies</span>
+      </div>
+      <div class="stat">
+        <strong id="totalDuration">—</strong>
+        <span>Total clip duration</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="filters">
+    <input
+      id="search"
+      type="search"
+      placeholder="Search rallies..."
+      aria-label="Search rallies"
+    >
+
+    <select id="sort" aria-label="Sort rallies">
+      <option value="title">Name A–Z</option>
+      <option value="duration-desc">Longest first</option>
+      <option value="duration-asc">Shortest first</option>
+      <option value="coverage-desc">Most shuttle predictions</option>
+    </select>
+  </div>
+
+  <div class="section-heading">
+    <strong>Available datasets</strong>
+    <span id="resultCount">Loading...</span>
+  </div>
+
+  <div class="grid" id="rallyGrid"></div>
+
+  <div class="empty" id="emptyState" hidden>
+    No rallies match your search.
+  </div>
+
+  <footer>
+    Tracking coverage indicates the percentage of frames with a
+    reported shuttle position, not independently verified accuracy.
+    Some clips may overlap in the same match.
+  </footer>
+</main>
+
+<script src="/assets/library.js"></script>
+</body>
+</html>

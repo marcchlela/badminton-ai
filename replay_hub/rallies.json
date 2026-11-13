@@ -1,0 +1,23 @@
+
+{
+  "version": 1,
+  "default_rally": "coach-36-46",
+  "rallies": [
+    {
+      "id": "coach-36-46",
+      "title": "Coach Demo — 36–46s",
+      "description": "Ten-second synchronized player and shuttle tracking demonstration.",
+      "timeline": "outputs/unified/coach_demo_36_46/timeline.json",
+      "metadata": "outputs/unified/coach_demo_36_46/metadata.json",
+      "video": "outputs/shuttle/tracknet/coach_demo_36_46/rally.mp4"
+    },
+    {
+      "id": "test-36-40",
+      "title": "Original Test — 36–40s",
+      "description": "Four-second prototype used to validate the unified replay pipeline.",
+      "timeline": "outputs/unified/rally_36_40/timeline.json",
+      "metadata": "outputs/unified/rally_36_40/metadata.json",
+      "video": "outputs/shuttle/tracknet/integration_test_36_40/rally.mp4"
+    }
+  ]
+}
