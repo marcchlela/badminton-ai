@@ -26,6 +26,13 @@ ASSET_TYPES = {
     "replay.js": "text/javascript; charset=utf-8",
     "library.css": "text/css; charset=utf-8",
     "library.js": "text/javascript; charset=utf-8",
+
+    "replay/state.js": "text/javascript; charset=utf-8",
+    "replay/tracking.js": "text/javascript; charset=utf-8",
+    "replay/overlays.js": "text/javascript; charset=utf-8",
+    "replay/court.js": "text/javascript; charset=utf-8",
+    "replay/playback.js": "text/javascript; charset=utf-8",
+    "replay/main.js": "text/javascript; charset=utf-8",
 }
 
 CACHE_ROOT = ROOT / "outputs" / "replay_hub_cache"
