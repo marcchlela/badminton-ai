@@ -6,6 +6,12 @@ import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
+from events_store import (
+    list_events,
+    add_event,
+    delete_event,
+    update_event,
+)
 
 import cv2
 
@@ -33,6 +39,7 @@ ASSET_TYPES = {
     "replay/court.js": "text/javascript; charset=utf-8",
     "replay/playback.js": "text/javascript; charset=utf-8",
     "replay/main.js": "text/javascript; charset=utf-8",
+    "replay/events.js": "text/javascript; charset=utf-8",
 }
 
 CACHE_ROOT = ROOT / "outputs" / "replay_hub_cache"
@@ -435,6 +442,21 @@ class ReplayHandler(BaseHTTPRequestHandler):
             "application/json; charset=utf-8"
         )
 
+        def send_json_error(self, status, message):
+            payload = json.dumps({
+                "error": message
+            }).encode("utf-8")
+
+            self.send_response(status)
+            self.send_header(
+                "Content-Type",
+                "application/json; charset=utf-8"
+            )
+            self.send_header("Content-Length", str(len(payload)))
+            self.send_header("Cache-Control", "no-store")
+            self.end_headers()
+            self.wfile.write(payload)
+    
     def do_GET(self):
         parsed = urlsplit(self.path)
         path = parsed.path
@@ -480,6 +502,19 @@ class ReplayHandler(BaseHTTPRequestHandler):
                         rally["info"]
                         for rally in RALLIES.values()
                     ],
+                })
+            
+            if path == "/api/events":
+                rally_id = query.get("rally", [None])[0]
+
+                if rally_id not in RALLIES:
+                    return self.send_json_error(
+                        404, "Unknown rally"
+                    )
+
+                return self.send_json({
+                    "rally_id": rally_id,
+                    "events": list_events(rally_id),
                 })
 
             if path == "/api/timeline":
@@ -554,6 +589,170 @@ class ReplayHandler(BaseHTTPRequestHandler):
                 )
             except OSError:
                 pass
+
+    
+    def do_POST(self):
+        parsed = urlsplit(self.path)
+
+        if parsed.path != "/api/events":
+            self.send_error(404)
+            return
+
+        try:
+            length = int(
+                self.headers.get("Content-Length", "0")
+            )
+
+            if length < 1 or length > 8192:
+                return self.send_json_error(
+                    400, "Invalid request size"
+                )
+
+            body = self.rfile.read(length)
+            payload = json.loads(body.decode("utf-8"))
+
+            if not isinstance(payload, dict):
+                raise ValueError("Expected a JSON object")
+
+            rally_id = payload.get("rally_id")
+
+            if (
+                not isinstance(rally_id, str)
+                or rally_id not in RALLIES
+            ):
+                return self.send_json_error(
+                    404, "Unknown rally"
+                )
+
+            event = add_event(
+                rally_id,
+                RALLIES[rally_id]["info"],
+                payload,
+            )
+
+            self.send_json({
+                "success": True,
+                "event": event,
+            })
+
+        except (ValueError, UnicodeDecodeError) as error:
+            self.send_json_error(400, str(error))
+
+        except Exception as error:
+            print("Event creation error:", error)
+            self.send_json_error(
+                500, "Could not save annotation"
+            )
+
+
+    def do_PATCH(self):
+        parsed = urlsplit(self.path)
+
+        match = re.fullmatch(
+            r"/api/events/([a-f0-9]{32})",
+            parsed.path,
+        )
+
+        if not match:
+            self.send_error(404)
+            return
+
+        query = parse_qs(parsed.query)
+        rally_id = query.get("rally", [None])[0]
+
+        if rally_id not in RALLIES:
+            return self.send_json_error(
+                404, "Unknown rally"
+            )
+
+        try:
+            length = int(
+                self.headers.get("Content-Length", "0")
+            )
+
+            if not 1 <= length <= 8192:
+                return self.send_json_error(
+                    400, "Invalid request size"
+                )
+
+            payload = json.loads(
+                self.rfile.read(length).decode("utf-8")
+            )
+
+            updated = update_event(
+                rally_id,
+                RALLIES[rally_id]["info"],
+                match.group(1),
+                payload,
+            )
+
+            if updated is None:
+                return self.send_json_error(
+                    404, "Annotation not found"
+                )
+
+            self.send_json({
+                "success": True,
+                "event": updated,
+            })
+
+        except (
+            ValueError,
+            UnicodeDecodeError,
+            json.JSONDecodeError,
+        ) as error:
+            self.send_json_error(400, str(error))
+
+        except Exception as error:
+            print("Annotation update error:", error)
+            self.send_json_error(
+                500, "Could not update annotation"
+            )
+
+    def do_DELETE(self):
+        parsed = urlsplit(self.path)
+
+        match = re.fullmatch(
+            r"/api/events/([a-f0-9]{32})",
+            parsed.path,
+        )
+
+        if not match:
+            self.send_error(404)
+            return
+
+        query = parse_qs(parsed.query)
+        rally_id = query.get("rally", [None])[0]
+
+        if rally_id not in RALLIES:
+            return self.send_json_error(
+                404, "Unknown rally"
+            )
+
+        try:
+            deleted = delete_event(
+                rally_id,
+                match.group(1),
+            )
+
+            if not deleted:
+                return self.send_json_error(
+                    404, "Event not found"
+                )
+
+            self.send_json({
+                "success": True
+            })
+
+        except ValueError as error:
+            self.send_json_error(400, str(error))
+
+        except Exception as error:
+            print("Event deletion error:", error)
+            self.send_json_error(
+                500, "Could not delete annotation"
+            )
+
 
 
 # ============================================================

@@ -537,3 +537,363 @@ label { cursor: pointer; }
 .library-nav:hover {
   border-color: var(--accent);
 }
+
+
+/* ============================================================
+   PHASE 6.4 — EVENT ANNOTATIONS
+   ============================================================ */
+
+/* Reserve a slim row for timeline markers. */
+.transport {
+  flex-basis: 132px;
+}
+
+.event-track {
+  height: 16px;
+  position: relative;
+  margin: 4px 7px 0;
+  border-bottom: 1px solid #344754;
+}
+
+.event-marker {
+  position: absolute;
+  top: 1px;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 13px;
+  padding: 0;
+  min-height: 0;
+  border: 1px solid #d9e5e6;
+  border-radius: 3px 3px 1px 1px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.event-marker.contact {
+  background: #68cff3;
+}
+
+.event-marker.contact.far {
+  background: #f6bc67;
+}
+
+.event-marker.bookmark {
+  background: #a78bfa;
+}
+
+.event-marker.rally_event {
+  background: #e7a87b;
+}
+
+.event-marker:hover,
+.event-marker:focus-visible {
+  z-index: 3;
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+.event-panel {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  width: 365px;
+  max-width: calc(100% - 30px);
+  max-height: calc(100% - 24px);
+  overflow-y: auto;
+  z-index: 11;
+  border: 1px solid #3b5966;
+  border-radius: 9px;
+  background: #111d2a;
+  box-shadow: 0 16px 55px #0009;
+}
+
+.event-panel-head {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 13px 15px;
+  background: #111d2a;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.event-panel-head strong {
+  display: block;
+  font-size: 14px;
+}
+
+.event-panel-head small {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+.event-panel-body {
+  padding: 15px;
+}
+
+.event-current {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.event-current strong {
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+#eventForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#eventForm label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.event-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+}
+
+#eventForm select,
+#eventForm textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 9px;
+  background: #172433;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+#eventForm textarea {
+  resize: vertical;
+  font: inherit;
+}
+
+.event-save {
+  background: #24564f;
+  border-color: #387f74;
+  font-weight: 650;
+}
+
+.event-message {
+  min-height: 16px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.event-message.error {
+  color: #ffa3a3;
+}
+
+.event-list-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 16px;
+  margin-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.event-list-heading span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.event-navigation {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.event-navigation button {
+  flex: 1;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.event-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background: #172433;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 8px;
+}
+
+.event-jump {
+  flex: 1;
+  text-align: left;
+  background: transparent;
+  border: none;
+  padding: 4px;
+  min-width: 0;
+}
+
+.event-jump strong,
+.event-jump small {
+  display: block;
+}
+
+.event-jump small {
+  color: var(--muted);
+  margin-top: 3px;
+  font-size: 10px;
+}
+
+.event-delete {
+  color: #f3a6a6;
+  min-width: 32px;
+  padding: 5px;
+}
+
+@media (max-width: 700px) {
+  .event-panel {
+    left: 9px;
+    max-width: calc(100% - 18px);
+  }
+
+  .transport {
+    flex-basis: 132px;
+  }
+}
+
+
+/* ============================================================
+   PHASE 6.4.2 — ADVANCED EVENT ANNOTATIONS
+   ============================================================ */
+
+.event-filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+  margin: 12px 0;
+}
+
+.event-filters label,
+.event-confidence-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.event-filters select,
+.event-confidence-field select {
+  min-width: 0;
+  width: 100%;
+  padding: 9px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  background: var(--surface2);
+}
+
+.event-filter-summary {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.event-marker.current {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+  z-index: 4;
+}
+
+.event-marker.uncertain {
+  border-style: dashed;
+}
+
+.event-marker.approximate {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+.event-marker.confirmed {
+  border-style: solid;
+}
+
+.event-item.current {
+  border-color: var(--accent);
+  background: #1c3439;
+}
+
+.event-item.dimmed {
+  opacity: .65;
+}
+
+.event-edit {
+  min-width: 32px;
+  padding: 5px;
+  color: #a6dfe2;
+}
+
+.event-form-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.event-form-actions .event-save {
+  flex: 1;
+}
+
+.event-cancel {
+  flex: 0 0 auto;
+}
+
+.event-confidence-note {
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.event-shortcuts {
+  margin: 13px 0;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.event-shortcuts kbd {
+  display: inline-block;
+  margin: 0 2px;
+  padding: 1px 5px;
+  color: var(--text);
+  background: #243647;
+  border-radius: 4px;
+}
+
+.event-panel {
+  scrollbar-width: thin;
+}
+
+@media (max-width: 700px) {
+  .event-filters {
+    grid-template-columns: 1fr 1fr;
+  }
+}

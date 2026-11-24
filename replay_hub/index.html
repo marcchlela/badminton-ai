@@ -36,6 +36,9 @@
   </div>
 
   <div class="tool-right">
+    <button id="eventsButton" type="button" aria-expanded="false">
+      Events (0)
+    </button>
     <a class="library-nav" href="/library">
         Rally Library
     </a>
@@ -148,12 +151,108 @@
       </p>
     </div>
   </aside>
+
+  <aside class="event-panel" id="eventPanel" hidden>
+    <div class="event-panel-head">
+      <div>
+        <strong>Event annotations</strong>
+        <small id="eventRallyLabel">Current rally</small>
+      </div>
+      <button id="closeEvents" type="button"
+              aria-label="Close event panel">✕</button>
+    </div>
+
+    <div class="event-panel-body">
+      <div class="event-current">
+        <span>Current frame</span>
+        <strong id="eventCurrentFrame">—</strong>
+      </div>
+
+      <form id="eventForm">
+        <div class="event-fields">
+          <label>
+            Event type
+            <select id="eventKind">
+              <option value="contact">Racket contact</option>
+              <option value="bookmark">Bookmark</option>
+              <option value="rally_event">Rally event</option>
+            </select>
+          </label>
+
+          <label>
+            Player
+            <select id="eventPlayer">
+              <option value="Near">Near player</option>
+              <option value="Far">Far player</option>
+              <option value="Unknown">Unknown</option>
+            </select>
+          </label>
+        </div>
+
+        <label id="eventShotField">
+          Shot type
+          <select id="eventShot">
+            <option value="unknown">Unknown / not labeled</option>
+            <option value="serve">Serve</option>
+            <option value="clear">Clear</option>
+            <option value="drop">Drop</option>
+            <option value="smash">Smash</option>
+            <option value="lift">Lift</option>
+            <option value="drive">Drive</option>
+            <option value="net">Net shot</option>
+            <option value="push">Push</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+
+        <label>
+          Notes (optional)
+          <textarea id="eventNotes"
+                    rows="2"
+                    maxlength="500"
+                    placeholder="What happened at this frame?"></textarea>
+        </label>
+
+        <button type="submit" id="saveEvent"
+                class="event-save">
+          Save annotation
+        </button>
+
+        <div id="eventMessage" class="event-message"
+            role="status"></div>
+      </form>
+
+      <div class="event-list-heading">
+        <strong>Saved events</strong>
+        <span id="eventCount">0 events</span>
+      </div>
+
+      <div class="event-navigation">
+        <button type="button" id="previousEvent">
+          ← Previous
+        </button>
+        <button type="button" id="nextEvent">
+          Next →
+        </button>
+      </div>
+
+      <div id="eventList" class="event-list">
+        No annotations yet.
+      </div>
+    </div>
+  </aside>
+
 </div>
 
 <div class="transport">
   <div class="timeline-row">
     <strong class="mono" id="timeLabel">36.00s / 45.96s</strong>
     <span class="muted mono" id="frameLabel">Frame 900 / 1149</span>
+  </div>
+
+  <div id="eventTrack"
+     class="event-track"
+     aria-label="Annotated rally events">
   </div>
 
   <input type="range" id="seek"
@@ -209,5 +308,6 @@
 <script defer src="/assets/replay/court.js"></script>
 <script defer src="/assets/replay/playback.js"></script>
 <script defer src="/assets/replay/main.js"></script>
+<script defer src="/assets/replay/events.js"></script>
 </body>
 </html>

@@ -68,6 +68,9 @@ function renderFrame() {
   if (!timeline.length) return;
 
   updateInspector();
+  if (typeof updateEventFrameLabel === "function") {
+    updateEventFrameLabel();
+  }
 
   // Always redraw overlays so toggles apply immediately.
   drawVideoOverlay();

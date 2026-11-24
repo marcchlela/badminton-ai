@@ -221,6 +221,12 @@ async function initialize() {
     renderFrame();
     updatePlaybackUI();
 
+    // Load manual annotations for the selected rally.
+    // Annotation API errors must not block video playback.
+    if (typeof initAnnotations === "function") {
+      void initAnnotations();
+    }
+
     requestAnimationFrame(animationTick);
 
   } catch (error) {
